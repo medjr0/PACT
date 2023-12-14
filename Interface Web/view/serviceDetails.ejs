@@ -1,0 +1,46 @@
+<style>
+	a {
+		color: black; 
+		text-decoration: none;
+	}
+	a:hover {
+		color: blue;
+	}
+</style>
+<div class="row">
+    <div class="col-md-8">
+        <div class="card mb-3">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid mx-2 my-4" src="<%= data["logo"] %>" />
+                </div>
+                <div class="col-md-9">
+                    <div class="card-body">		
+                        <h3 class="card-title">
+                            <a href="<%= data["association"]["website"] %>" target="_blank">
+                                <%= data["title"] %>
+                            </a>
+                        </h3>
+                        <h6>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <%= data["association"]["address"] %>
+                        </h6>
+                        <p class="card-text"> Nom de l'association : <%= data["association"]["name"] %></p>
+                        <p class="card-text"> 
+                            <a href="<%= data["association"]["website"] %>">
+                                Site Web : <%= data["association"]["website"] %>
+                            </a>
+                        </p>
+                        <p class="card-text"> Numero de téléphone : <%= data["association"]["phone"] %></p>
+                        <p class="card-text" > 
+                            <a href="mailto:<%= data["association"]["mail"] %>">
+                            Mail de contact : <%= data["association"]["mail"] %>
+                            </a>
+                        </p>
+                        <p class="card-text"><%= data["description"] %></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

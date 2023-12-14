@@ -1,0 +1,11 @@
+- Envoyer dans la liste des services si la personne a voté et quoi ?
+- Intégrer la carte
+- Faire une page pour ajouter des services
+- Pb quand il n'y a pas déjà de notes
+- Nominatim lors de l'ajout
+- Formule du calcul de la distance
+- Les catégories
+- Recherche par nom (dans une certaine catégorie)
+- Les pages interdites => renvoyer la dernière page
+- La taille des logos
+- Renvoyer la page courante

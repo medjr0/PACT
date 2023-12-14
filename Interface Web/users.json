@@ -1,0 +1,22 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "name": "Mohamed JARMOUNI",
+            "mail": "testmohamed@test.fr",
+            "password": "1234"
+        },
+        {
+            "id": 1,
+            "name": "Quentin BUZET",
+            "mail": "testquentin@test.fr",
+            "password": "1234"
+        },
+        {
+          "id": 2,
+          "name": "Idris DELSOL",
+          "mail": "testidris@test.fr",
+          "password": "1234"
+        }
+    ]
+}

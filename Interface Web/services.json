@@ -1,0 +1,36 @@
+{
+    "services": [
+        {
+            "id": 0,
+            "title": "SINGA",
+            "adress": "50, rue de Montreuil, 75011, Paris, FRANCE",
+            "description": "Singa est une association française spécialisée dans l'intégration des personnes réfugiées et migrantes. Elle se veut être une communauté, incluant les réfugiés statutaires, dans laquelle « on se rencontre, on réfléchit, on échange, on crée de l'innovation sociale, de la richesse culturelle et des emplois ». Elle est présente dans 10 pays et 20 villes. « Singa » veut dire « lien » en lingala, langue bantoue parlée au Congo.",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Logo_SINGA.png/1024px-Logo_SINGA.png",
+			"approved": false
+        },
+        {
+            "id": 1,
+            "title": "GISTI",
+            "adress": "3, villa Marcès, 75011, Paris, FRANCE",
+            "description": "Organisation militante, située « très nettement à gauche », le Gisti entend participer au débat d'idées et aux luttes de terrain, aux niveaux national et européen, en relation avec des associations d'immigrés, des associations de défense des droits de l'homme et des organisations syndicales et familiales. Le Gisti est devenu depuis sa fondation en 1972 un contributeur reconnu dans les recherches et débats sur les politiques migratoires.",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Logogisti.jpg",
+			"approved": false
+        },
+		{
+            "id": 2,
+            "title": "I NEED",
+            "adress": "19, place Marguerite Perey",
+            "description": "Développement d'une application et d'un site web pour faciliter la mise en relation des personnes dans le besoin avec les associations",
+            "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d9/Logo_T%C3%A9l%C3%A9com_ParisTech.svg/1200px-Logo_T%C3%A9l%C3%A9com_ParisTech.svg.png",
+			"approved": true
+        },
+		{
+            "id": 3,
+            "title": "INF106",
+            "adress": "19, place Marguerite Perey",
+            "description": "Apprenez à utiliser Linux et Windaube !",
+            "logo": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Felections.smartmatic.com%2Fwp-content%2Fuploads%2Fcomelec.png&f=1&nofb=1",
+			"approved": false
+        }
+    ]
+}
