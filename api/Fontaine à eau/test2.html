@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+         <!-- Make sure you put this AFTER Leaflet's CSS -->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+        <title>Les fontaines à eau à Paris</title>
+    </head>
+    <body>
+        <h1>Petit tour d'horizon des différents de types de fontaines à eau parisiennes et de leur localisation</h1>
+        <div id="map" style="height: 512px;">
+        </div>
+        <p>
+            <button onclick="getTypes()">Récupérer les différents types de fontaines !</button>
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <td>Nom du type</td>
+                    <td>Nombre de représentants</td>
+                    <td>Trouver ce type de fontaines</td>
+                </tr>
+            </thead>
+            <tbody id="rendu_types">
+            </tbody>
+        </table>
+    </body>
+    <script>    
+        var map;
+        var markers;
+        
+        window.onload = function(){
+            map = L.map('map').setView([48.86, 2.33], 12);
+            markers = new L.LayerGroup();
+            map.addLayer(markers);
+
+            L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
+            attribution: 'données © <a href="//osm.org/copyright">OpenStreetMap</a>/ODbL - rendu <a href="//openstreetmap.fr">OSM France</a>',
+            minZoom: 1,
+            maxZoom: 20
+    }).addTo(map);
+            
+            /*for(var i = 0; i < 254; i++){
+                L.marker([48.8, 2.3 + 0.01*i]).addTo(map);
+            }*/
+        };
+        
+        function getTypes(){
+            httpRequest = new XMLHttpRequest();
+            httpRequest.onreadystatechange = gestionTypes;
+            httpRequest.open('GET', "https://opendata.paris.fr/api/records/1.0/search/?dataset=fontaines-a-boire&q=&rows=0&facet=modele");
+            httpRequest.send();
+        }
+        
+        function gestionTypes()
+        {
+            if(httpRequest.readyState === XMLHttpRequest.DONE){
+                if(httpRequest.status === 200){
+                    var donnees = httpRequest.responseText;
+                    donnees = JSON.parse(donnees);
+                    types = donnees.facet_groups[0].facets;
+                    console.log(types);
+                    
+                    var tab_types = document.getElementById("rendu_types");
+                    
+                    for(var i = 0; i < types.length; i++){
+                        var nligne = tab_types.insertRow();
+                        nligne.id = types[i].name;
+                        nligne.insertCell().textContent = types[i].name;
+                        nligne.insertCell().textContent = types[i].count;
+                        nligne.insertCell().innerHTML = '<button onclick="getLoc(\'' + types[i].name + '\',' + types[i].count + ')">Localisez-les !</button>';
+                    }
+                }
+            }
+        }
+        
+        function getLoc(name, nb){
+            alert("Vous vous apprêtez à découvrir les positions des fontaines dont le modèle est : " + name);
+            httpRequest = new XMLHttpRequest();
+            httpRequest.onreadystatechange = gestionLoc;
+            var modele = name.split(' ').join('+');
+            httpRequest.open('GET', "https://opendata.paris.fr/api/records/1.0/search/?dataset=fontaines-a-boire&q=&rows=" + nb + "&refine.modele=" + modele);
+            httpRequest.send();
+            markers.clearLayers();
+        }
+        
+        function gestionLoc(){
+            if(httpRequest.readyState === XMLHttpRequest.DONE){
+                if(httpRequest.status === 200){
+                    var donnees = httpRequest.responseText;
+                    donnees = JSON.parse(donnees);
+                    fontaines = donnees.records;
+                    for(var i = 0; i < fontaines.length; i++){
+                        var position = fontaines[i].fields.geo_shape.coordinates;
+                        L.marker([position[1], position[0]]).addTo(markers);
+                    }
+                }
+            }
+        }
+    </script>
+</html>

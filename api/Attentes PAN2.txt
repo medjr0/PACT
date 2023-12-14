@@ -1,0 +1,23 @@
+Bonjour
+
+Vous êtes en charge du module web services du projet de votre groupe PACT.
+
+En terme technique, j'attend que vous soyez capable d'appeler un web service depuis une application et de mettre en œuvre un service. 
+Nous supposerons qu'il s'agit de services REST ou GraphQL.
+En Java, vous pouvez vous orienter vers HTTPRequest pour l'appel d'un service. 
+En python, vous pouvez utiliser le module requests pour émettre des requêtes à un service depuis un client et le module flask pour créer un code capable de recevoir et traiter des requêtes et donc d'implémenter un service. Je vous recommande de formater les données échangées au format JSON (sauf quand il s'agit de paramètres simples passés dans l'URL), lorsque vous pouvez choisir.
+Cette partie technique constituera les bases minimales sur lesquelles il sera possible de construire tous le reste.
+Je vous demande de démontrer la capacité d'appel d'un service soit en appelant un service utile à votre projet, soit en appelant le service suivant:
+https://opendata.paris.fr/explore/dataset/fontaines-a-boire/api/?disjunctive.type_objet&disjunctive.modele&disjunctive.commune&disjunctive.dispo
+Pour la mise en oeuvre d'un service, cela doit être un service simple, par exemple une requête qui passe 2 entiers en paramètre de l'appel au service et un service qui répond dans une structure JSON en récapitulant les paramètres d'entrée et en fournissant la somme des deux entiers. 
+Mais, vous pouvez aussi envisager de mettre en oeuvre un service qui pourrait être utile à votre projet. 
+
+Pour la partie conception, je vous demande d'être en mesure de me présenter les APIs que vous comptez utiliser et éventuellement celles que vous comptez mettre en œuvre.
+
+Pour les entretiens, je vais vous envoyer un doodle dans les prochains jours. Vous aurez à vous inscrire sur un des créneaux proposés.
+
+Cordialement
+--
+Jean-Claude Moissinac
+--
+Jean-Claude Moissinac

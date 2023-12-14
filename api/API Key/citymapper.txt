@@ -1,0 +1,8 @@
+https://api.external.citymapper.com/api
+zFLqQDDyuHfgS94ElXFJZvGG7LJFlA29
+
+API Key
+
+An API key can be obtained from the Powered by Citymapper website. This key must be provided with all requests in the Citymapper-Partner-Key HTTP header.
+Security Scheme Type 	API Key
+Header parameter name:	Citymapper-Partner-Key

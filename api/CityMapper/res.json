@@ -1,0 +1,2973 @@
+var data = {
+    "routes": [
+        {
+            "start": {
+                "coordinates": {
+                    "lat": 48.848074,
+                    "lon": 2.344193
+                }
+            },
+            "end": {
+                "coordinates": {
+                    "lat": 48.712912,
+                    "lon": 2.199889
+                }
+            },
+            "duration_seconds": 3286,
+            "duration_accuracy": "scheduled",
+            "price": {
+                "formatted": "5.55€",
+                "amount": "5.55",
+                "currency": "EUR"
+            },
+            "legs": [
+                {
+                    "travel_mode": "walk",
+                    "duration_seconds": 422,
+                    "path": "usciHkyhMFBhBv@VLHDLFfAb@FDRHCXQnAE^G`@SzACNCPQvAKr@M~@pAl@\\NGb@",
+                    "updatable_detail": {
+                        "leg_departure_time": "2022-02-27T16:39:25+01:00",
+                        "leg_arrival_time": "2022-02-27T16:46:27+01:00"
+                    },
+                    "station_walk_type": "enter_station",
+                    "walk_details_enter_station": {
+                        "recommended_exit": {
+                            "id": "ParisStation_Luxembourg_E3380",
+                            "stop_id": "ParisStation_Luxembourg",
+                            "coordinates": {
+                                "lat": 48.8468196,
+                                "lon": 2.340359
+                            },
+                            "name": "Place Edmond Rostand",
+                            "short_name": "1"
+                        },
+                        "alternate_exits": [
+                            {
+                                "id": "ParisStation_Luxembourg_E25271",
+                                "stop_id": "ParisStation_Luxembourg",
+                                "coordinates": {
+                                    "lat": 48.844306,
+                                    "lon": 2.339085
+                                },
+                                "name": "rue Auguste Comte",
+                                "short_name": "4"
+                            },
+                            {
+                                "id": "ParisStation_Luxembourg_E3377",
+                                "stop_id": "ParisStation_Luxembourg",
+                                "coordinates": {
+                                    "lat": 48.844291,
+                                    "lon": 2.3393237
+                                },
+                                "name": "rue de l'Abbé de l'Épée",
+                                "short_name": "3"
+                            },
+                            {
+                                "id": "ParisStation_Luxembourg_E3379",
+                                "stop_id": "ParisStation_Luxembourg",
+                                "coordinates": {
+                                    "lat": 48.8465045,
+                                    "lon": 2.3405253
+                                },
+                                "name": "rue Gay Lussac",
+                                "short_name": "2"
+                            }
+                        ],
+                        "duration_seconds": 60
+                    }
+                },
+                {
+                    "travel_mode": "transit",
+                    "duration_seconds": 1260,
+                    "path": "ylciHochMBMFDd]fOpI~CnARvCf@b@@d@VhA|@`RxQpBdB`A^x@GfAGhKiCfA]t@a@`Aw@tDmEf@a@~@i@dA[rAm@tMuCxAObDs@`FwAlCo@fBq@vEuCbA_@x@OzAEbAC~ASzXgI`B]~AM`AD`ANjBn@~@f@lA`AhBhBjAvAvFlIjFrIzJ|NlDlEtFbItCtCfBvA|@d@|@\\xAXhRjBpS~BnBf@dAb@fBhAr@p@lAtAn@bAf@dAv@xBl@fCd@rCZhDHbBRtINzBXzBXrA\\fAr@~Ab@t@h@r@jA`AdHzDrMbIbB~@vFvCpH`D~@\\tAZz@HjA?`BOzDk@~@G~ADvATp@VTHdTzJ~CfAzAZjAPr@DfBCpCO~Fq@nAI`BAhBDjAL~B\\jAXfA\\dBr@rC~AdAt@`UbRfEnCjD`B??~e@~QhExA~CdAzBn@fDt@hd@pGlBd@hBn@hB~@vA~@rBfBv@x@fBvBxBlDdBtDl@bBl@jBtP~q@f@fB~AvEpDrIr@`C^dBNjAf@jFRvAd@bCfCfK~F`W\\pA~BbHj@zAZr@bAbBh@n@l@h@jF~DlAvAzMlSjDzEdHhLxIrL\\u@",
+                    "stops": [
+                        {
+                            "id": "ParisStation_Luxembourg",
+                            "name": "Luxembourg",
+                            "coordinates": {
+                                "lat": 48.846185,
+                                "lon": 2.340241
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Port_Royal",
+                            "name": "Port-Royal",
+                            "coordinates": {
+                                "lat": 48.839915,
+                                "lon": 2.337114
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Denfert_Rochereau_RATPMetro",
+                            "name": "Denfert-Rochereau",
+                            "coordinates": {
+                                "lat": 48.833997,
+                                "lon": 2.332532
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Cite_Universitaire_RER",
+                            "name": "Cité Universitaire",
+                            "coordinates": {
+                                "lat": 48.820654,
+                                "lon": 2.339007
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Bourg_la_Reine",
+                            "name": "Bourg-la-Reine",
+                            "coordinates": {
+                                "lat": 48.780284,
+                                "lon": 2.312464
+                            }
+                        },
+                        {
+                            "id": "ParisStation_La_Croix_de_Berny",
+                            "name": "La Croix de Berny",
+                            "coordinates": {
+                                "lat": 48.762315,
+                                "lon": 2.304604
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Antony_sncf_rer",
+                            "name": "Antony",
+                            "coordinates": {
+                                "lat": 48.754904,
+                                "lon": 2.301003
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Massy_Palaiseau",
+                            "name": "Massy - Palaiseau",
+                            "coordinates": {
+                                "lat": 48.724746,
+                                "lon": 2.257196
+                            }
+                        }
+                    ],
+                    "updatable_detail": {
+                        "departures": [
+                            {
+                                "type": "scheduled",
+                                "service_id": "RERB",
+                                "headsign": "Saint-Rémy-Lès-Chevreuse",
+                                "short_name": "PIRE",
+                                "scheduled_time": "2022-02-27T16:57:00+01:00",
+                                "time_status": "unknown"
+                            }
+                        ],
+                        "live_departure_availability": "unknown",
+                        "statuses": [
+                            {
+                                "type": "no_issues",
+                                "service_ids": [
+                                    "RERB"
+                                ]
+                            }
+                        ],
+                        "leg_departure_time": "2022-02-27T16:57:00+01:00",
+                        "leg_arrival_time": "2022-02-27T17:18:00+01:00"
+                    },
+                    "vehicle_types": [
+                        "rail"
+                    ],
+                    "services": [
+                        {
+                            "id": "RERB",
+                            "name": "RER B",
+                            "vehicle_types": [
+                                "rail"
+                            ],
+                            "brand": {
+                                "id": "RER",
+                                "name": "RER",
+                                "images": [
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/0efa8df0938a92bf11ed1b4437b995eb92654062f352a0168591b83a/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/b3306f2538a7c7c0ecb6d405c70f445ee84274d4d5af90bdcc391af6/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/060744902754d47a6c1cd8f50dcb771dbab6b0b6aaed508271f534c5/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/027b9a09a3dc4e8fdb8f0ac13a4ab9b4be358795f46afcc6dca29689/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/5562ddee195aac1d10c76950ce44ef5b80ca93141c96b23e9c6745ea/d324a6fb/@2x.png",
+                                        "width": 13,
+                                        "height": 16,
+                                        "ui_role": "vehicle_compact",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/973833a27d4c0799db032ea169c7e05c526b30f4858bd41259b39ce4/d324a6fb/@2x.png",
+                                        "width": 24,
+                                        "height": 33,
+                                        "ui_role": "vehicle",
+                                        "is_generic": true
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "url": "https://d3440lt1d9mf95.cloudfront.net/925ecd8d28467b227bc95082c0c9b15760000706401d0590d9c3f584/d324a6fb/@2x.png",
+                                    "width": 24,
+                                    "height": 24,
+                                    "ui_role": "service",
+                                    "replaces_name": true
+                                },
+                                {
+                                    "url": "https://d3440lt1d9mf95.cloudfront.net/3fd8ee2c087fea4999225c212542eb319b34029e314092890228388e/d324a6fb/@2x.png",
+                                    "width": 16,
+                                    "height": 16,
+                                    "ui_role": "service",
+                                    "replaces_name": true
+                                }
+                            ],
+                            "color": "#427DBD",
+                            "background_color": "#427DBD",
+                            "text_color": "#FFFFFF"
+                        }
+                    ],
+                    "best_boarding_sections": {
+                        "front": false,
+                        "middle": true,
+                        "back": false
+                    }
+                },
+                {
+                    "travel_mode": "walk",
+                    "duration_seconds": 294,
+                    "path": "ulkhHkgxLd@cATXDHDDBFPRPNATAFDDFDFBHFFBHFFB@@H|@HJ@B@DDD?J?V@Ni@R",
+                    "updatable_detail": {
+                        "leg_departure_time": "2022-02-27T17:18:00+01:00",
+                        "leg_arrival_time": "2022-02-27T17:22:54+01:00"
+                    },
+                    "station_walk_type": "exit_station",
+                    "walk_details_exit_station": {
+                        "recommended_exit": {
+                            "id": "ParisStation_Massy_Palaiseau_E3",
+                            "stop_id": "ParisStation_Massy_Palaiseau",
+                            "coordinates": {
+                                "lat": 48.7241051,
+                                "lon": 2.2592547
+                            },
+                            "name": "avenue Ramolfo Garnier",
+                            "short_name": "3"
+                        },
+                        "alternate_exits": [
+                            {
+                                "id": "ParisStation_Massy_Palaiseau_E1",
+                                "stop_id": "ParisStation_Massy_Palaiseau",
+                                "coordinates": {
+                                    "lat": 48.7248516,
+                                    "lon": 2.26046
+                                },
+                                "name": "Massy Atlantis",
+                                "short_name": "1"
+                            },
+                            {
+                                "id": "ParisStation_Massy_Palaiseau_E2",
+                                "stop_id": "ParisStation_Massy_Palaiseau",
+                                "coordinates": {
+                                    "lat": 48.7264211,
+                                    "lon": 2.2575282
+                                },
+                                "name": "Massy Vilmorin",
+                                "short_name": "2"
+                            },
+                            {
+                                "id": "ParisStation_Massy_Palaiseau_E4",
+                                "stop_id": "ParisStation_Massy_Palaiseau",
+                                "coordinates": {
+                                    "lat": 48.7248725,
+                                    "lon": 2.256561
+                                },
+                                "name": "place Pierre Sémard"
+                            }
+                        ],
+                        "duration_seconds": 130
+                    }
+                },
+                {
+                    "travel_mode": "transit",
+                    "duration_seconds": 600,
+                    "path": "wgkhHo_xLBGFJx@vAhInKnAbApCnAf@l@Db@Ch@[~@oCbGaAtFi@nFU~@aBbE{C|HoB~DyBnI_@jBo@bGC`HA|Cb@xFLt@\\z@r@~EbD~JvDtKf@hAr@r@fKvE|CtATBNf@^PJC?f@Q`DYnQeAbYId@Jn@l@vAbApEr@`JLp@Zl@`@ZlATrB`CEr@\\t@f@@Xg@Bq@Og@Bo@pAaDbCmE|AkBrCkBpCs@xCBbExA|BzBtBhETzAV|AExPv@bWCnHEBDCBoHw@wXH_NY{CqAqDmBsCeBsAgC_AqCQuCd@iCpAqAnA{B`DuCtGa@Zc@PoBiCiCmFq@eC_DcO@aATaJUq@g@WsAOe@PYd@C`@h@lLLlEJvL`@~BlA|ELvCw@jh@{@lK_ExTy@xDMb@N`@L?bAxAZRnt@jLDe@?E",
+                    "stops": [
+                        {
+                            "id": "ParisStop_GareMassyPalaiseau_W",
+                            "name": "Massy - Palaiseau RER",
+                            "coordinates": {
+                                "lat": 48.723324,
+                                "lon": 2.257997
+                            }
+                        },
+                        {
+                            "id": "ParisStop_PalaiseauVille_NW",
+                            "name": "Palaiseau Ville",
+                            "coordinates": {
+                                "lat": 48.72199,
+                                "lon": 2.24884
+                            }
+                        },
+                        {
+                            "id": "ParisStop_LaVallee_SW",
+                            "name": "La Vallée",
+                            "coordinates": {
+                                "lat": 48.724406,
+                                "lon": 2.241314
+                            }
+                        },
+                        {
+                            "id": "ParisStop_CamilleClaudel_W",
+                            "name": "Camille Claudel",
+                            "coordinates": {
+                                "lat": 48.719552,
+                                "lon": 2.231869
+                            }
+                        },
+                        {
+                            "id": "ParisStop_EnstaLesJoncherettes_W",
+                            "name": "Ensta - Les Joncherettes",
+                            "coordinates": {
+                                "lat": 48.710194,
+                                "lon": 2.218959
+                            }
+                        },
+                        {
+                            "id": "ParisStop_PolytechniqueLozere_NW_2",
+                            "name": "Polytechnique Lozère",
+                            "coordinates": {
+                                "lat": 48.709954,
+                                "lon": 2.209815
+                            }
+                        },
+                        {
+                            "id": "ParisStop_FermeDeLaVauve_N_3",
+                            "name": "Ferme de la Vauve",
+                            "coordinates": {
+                                "lat": 48.711618,
+                                "lon": 2.201594
+                            }
+                        }
+                    ],
+                    "updatable_detail": {
+                        "departures": [
+                            {
+                                "type": "frequency",
+                                "service_id": "STIFBus_Albatrans9106",
+                                "frequency_seconds_range": [
+                                    732,
+                                    732
+                                ],
+                                "time_status": "unknown"
+                            },
+                            {
+                                "type": "frequency",
+                                "service_id": "STIFBus_Albatrans9110",
+                                "frequency_seconds_range": [
+                                    732,
+                                    732
+                                ],
+                                "time_status": "unknown"
+                            }
+                        ],
+                        "live_departure_availability": "unknown",
+                        "statuses": [
+                            {
+                                "type": "no_issues",
+                                "service_ids": [
+                                    "STIFBus_Albatrans9106",
+                                    "STIFBus_Albatrans9110"
+                                ]
+                            }
+                        ],
+                        "leg_departure_time": "2022-02-27T17:39:00+01:00",
+                        "leg_arrival_time": "2022-02-27T17:49:00+01:00"
+                    },
+                    "vehicle_types": [
+                        "bus"
+                    ],
+                    "services": [
+                        {
+                            "id": "STIFBus_Albatrans9106",
+                            "name": "91-06",
+                            "vehicle_types": [
+                                "bus"
+                            ],
+                            "brand": {
+                                "id": "STIFBus_Albatrans",
+                                "name": "Bus Albatrans",
+                                "images": [
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/d97d11b98e1d4178335067f3948cb80ec1b98badab6d5aa6af62afbf/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/bb11377addd08ab5d2ba85a4f1ce6e8519db8ea681ab13490523a186/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/67e2c62aac64fc7ee9d19791f3d309874353a20323e7390c101f1c10/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/4fb5a26e2e7558278c069c0ce6f72b672054069ddbac96f2b4d951f4/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/8b4e44e1cdc30e49e8c21edb97e389be3a07b34f1c45cac0b3ef7de7/d324a6fb/@2x.png",
+                                        "width": 13,
+                                        "height": 16,
+                                        "ui_role": "vehicle_compact",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/83a375cedd40ff34d59ffc95791be1a130c712d0799ffb782b26eeef/d324a6fb/@2x.png",
+                                        "width": 24,
+                                        "height": 33,
+                                        "ui_role": "vehicle",
+                                        "is_generic": true
+                                    }
+                                ]
+                            },
+                            "color": "#1AC7FF",
+                            "background_color": "#1AC7FF",
+                            "text_color": "#FFFFFF"
+                        },
+                        {
+                            "id": "STIFBus_Albatrans9110",
+                            "name": "91-10",
+                            "vehicle_types": [
+                                "bus"
+                            ],
+                            "brand": {
+                                "id": "STIFBus_Albatrans",
+                                "name": "Bus Albatrans",
+                                "images": [
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/d97d11b98e1d4178335067f3948cb80ec1b98badab6d5aa6af62afbf/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/bb11377addd08ab5d2ba85a4f1ce6e8519db8ea681ab13490523a186/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/67e2c62aac64fc7ee9d19791f3d309874353a20323e7390c101f1c10/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/4fb5a26e2e7558278c069c0ce6f72b672054069ddbac96f2b4d951f4/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/8b4e44e1cdc30e49e8c21edb97e389be3a07b34f1c45cac0b3ef7de7/d324a6fb/@2x.png",
+                                        "width": 13,
+                                        "height": 16,
+                                        "ui_role": "vehicle_compact",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/83a375cedd40ff34d59ffc95791be1a130c712d0799ffb782b26eeef/d324a6fb/@2x.png",
+                                        "width": 24,
+                                        "height": 33,
+                                        "ui_role": "vehicle",
+                                        "is_generic": true
+                                    }
+                                ]
+                            },
+                            "color": "#1AC7FF",
+                            "background_color": "#1AC7FF",
+                            "text_color": "#000000"
+                        }
+                    ],
+                    "direction_description": "Christ de Saclay | Saint-Quentin - Gare Routière des Prés"
+                },
+                {
+                    "travel_mode": "walk",
+                    "duration_seconds": 203,
+                    "path": "s~hhH}~lL?DKAoAWCd@UEALOBc@jI",
+                    "updatable_detail": {
+                        "leg_departure_time": "2022-02-27T17:49:00+01:00",
+                        "leg_arrival_time": "2022-02-27T17:52:23+01:00"
+                    }
+                }
+            ],
+            "route_departure_time": "2022-02-27T16:39:25+01:00",
+            "route_arrival_time": "2022-02-27T17:52:23+01:00",
+            "signature": "v2.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjbTp0cmFuc2l0MSIsImlhdCI6MTY0NTk3NjM2NiwiZnJvbnRlbmRfc2lnbmF0dXJlIjoie1wiY2FyXCI6MjU1MjQsXCJkdXJhdGlvblwiOjMyODYsXCJlbmRcIjp7XCJjb29yZHNcIjpcIjQ4LjcxMjkxMiwyLjE5OTg4OVwifSxcImpyX2luZGV4XCI6MCxcImxlZ3NcIjpbe1wiZGlzdGFuY2VcIjo0NTMsXCJkdXJhdGlvblwiOjQyMixcImVjXCI6XCI0OC44NDY4MiwyLjM0MDM2XCIsXCJpbl9zdGF0aW9uXCI6XCIwLzYwXCIsXCJtb2RlXCI6XCJ3YWxrXCIsXCJzY1wiOlwiNDguODQ4MTEsMi4zNDQwNlwiLFwidG9fZXhpdFwiOlwiUGFyaXNTdGF0aW9uX0x1eGVtYm91cmdfRTMzODBcIn0se1wiZHVyYXRpb25cIjoxMjYwLFwiZW5kXCI6XCJQYXJpc1N0YXRpb25fTWFzc3lfUGFsYWlzZWF1XCIsXCJtb2RlXCI6XCJ0cmFuc2l0XCIsXCJyb3V0ZV9pZHNcIjpbXCJSRVJCXCJdLFwic3RhcnRcIjpcIlBhcmlzU3RhdGlvbl9MdXhlbWJvdXJnXCIsXCJzdG9wX2NvdW50XCI6OCxcInN0b3BfaWRzXCI6W1wiUGxhdGZvcm1fUGFyaXNMdXhlbWJvdXJnX1JiX2RTXCIsXCJQbGF0Zm9ybV9QYXJpc01hc3N5UGFsYWlzZWF1X1JiX2RTV1wiXX0se1wiZGlzdGFuY2VcIjo1MjMsXCJkdXJhdGlvblwiOjI5NCxcImVjXCI6XCI0OC43MjMzMiwyLjI1OFwiLFwiZnJvbV9leGl0XCI6XCJQYXJpc1N0YXRpb25fTWFzc3lfUGFsYWlzZWF1X0UzXCIsXCJpbl9zdGF0aW9uXCI6XCIyLzEzMFwiLFwibW9kZVwiOlwid2Fsa1wiLFwic2NcIjpcIjQ4LjcyNDExLDIuMjU5MjZcIn0se1wiZHVyYXRpb25cIjo2MDAsXCJlbmRcIjpcIlBhcmlzU3RvcF9GZXJtZURlTGFWYXV2ZV9OXzNcIixcIm1vZGVcIjpcInRyYW5zaXRcIixcInJvdXRlX2lkc1wiOltcIlNUSUZCdXNfQWxiYXRyYW5zOTEwNlwiLFwiU1RJRkJ1c19BbGJhdHJhbnM5MTEwXCJdLFwic3RhcnRcIjpcIlBhcmlzU3RvcF9HYXJlTWFzc3lQYWxhaXNlYXVfV1wiLFwic3RvcF9jb3VudFwiOjd9LHtcImRpc3RhbmNlXCI6MjE4LFwiZHVyYXRpb25cIjoyMDMsXCJlY1wiOlwiNDguNzEyNDgsMi4xOTk3OFwiLFwibW9kZVwiOlwid2Fsa1wiLFwic2NcIjpcIjQ4LjcxMTYyLDIuMjAxNTlcIn1dLFwicHJpY2VfcGVuY2VcIjo1NTUsXCJyZWdpb25cIjpcImZyLXBhcmlzXCIsXCJyb3V0aW5nX3JlcXVlc3RfaWRcIjpcIjA2YTY5OTlhLTcyODEtNGNkMC05N2E5LWIxOWE2MzJjZTBkMVwiLFwic3RhcnRcIjp7XCJjb29yZHNcIjpcIjQ4Ljg0ODA3NCwyLjM0NDE5M1wifSxcInRpbWVcIjpcIjIwMjItMDItMjdUMTY6Mzk6MjUrMDE6MDAvTk9XSVNIXCIsXCJ2ZXJzaW9uXCI6Mn0iLCJyZWdpb25faWQiOiJmci1wYXJpcyJ9.GwRgDgqXuFSEn7iIJdj2tHPGy8jNRIKsPDEfY_9LwJ4"
+        },
+        {
+            "start": {
+                "coordinates": {
+                    "lat": 48.848074,
+                    "lon": 2.344193
+                }
+            },
+            "end": {
+                "coordinates": {
+                    "lat": 48.712912,
+                    "lon": 2.199889
+                }
+            },
+            "duration_seconds": 4315,
+            "duration_accuracy": "scheduled",
+            "price": {
+                "formatted": "5.55€",
+                "amount": "5.55",
+                "currency": "EUR"
+            },
+            "legs": [
+                {
+                    "travel_mode": "walk",
+                    "duration_seconds": 336,
+                    "path": "usciHkyhMFBhBv@VLHDLFfAb@FDRHCXQnAE^G`@SzACNCPQvAKr@M~@FJBFBF@H?H?LCLAFCJDCFd@",
+                    "updatable_detail": {
+                        "leg_departure_time": "2022-02-27T16:39:25+01:00",
+                        "leg_arrival_time": "2022-02-27T16:45:01+01:00"
+                    }
+                },
+                {
+                    "travel_mode": "transit",
+                    "duration_seconds": 240,
+                    "path": "enciHgahMGe@x@[HQ`TxJnHhDbF~B~AfBvARC`@",
+                    "stops": [
+                        {
+                            "id": "ParisStop_LuxembourgW_1",
+                            "name": "Luxembourg",
+                            "coordinates": {
+                                "lat": 48.847233,
+                                "lon": 2.340202
+                            }
+                        },
+                        {
+                            "id": "ParisStop_AugusteComte_S",
+                            "name": "Auguste Comte",
+                            "coordinates": {
+                                "lat": 48.843582,
+                                "lon": 2.33864
+                            }
+                        },
+                        {
+                            "id": "ParisStop_Val_de_GraceSW",
+                            "name": "Val de Grâce",
+                            "coordinates": {
+                                "lat": 48.842075,
+                                "lon": 2.337733
+                            }
+                        },
+                        {
+                            "id": "ParisStop_ObservatoirePortRoyal_S",
+                            "name": "Observatoire - Port Royal",
+                            "coordinates": {
+                                "lat": 48.839999,
+                                "lon": 2.336451
+                            }
+                        }
+                    ],
+                    "updatable_detail": {
+                        "departures": [
+                            {
+                                "type": "frequency",
+                                "service_id": "RATPBus82",
+                                "frequency_seconds_range": [
+                                    780,
+                                    780
+                                ],
+                                "time_status": "unknown"
+                            }
+                        ],
+                        "live_departure_availability": "unknown",
+                        "statuses": [
+                            {
+                                "type": "no_issues",
+                                "service_ids": [
+                                    "RATPBus82"
+                                ]
+                            }
+                        ],
+                        "leg_departure_time": "2022-02-27T16:55:00+01:00",
+                        "leg_arrival_time": "2022-02-27T16:59:00+01:00"
+                    },
+                    "vehicle_types": [
+                        "bus"
+                    ],
+                    "services": [
+                        {
+                            "id": "RATPBus82",
+                            "name": "82",
+                            "vehicle_types": [
+                                "bus"
+                            ],
+                            "brand": {
+                                "id": "RATPBus",
+                                "name": "Bus",
+                                "images": [
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/d97d11b98e1d4178335067f3948cb80ec1b98badab6d5aa6af62afbf/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/bb11377addd08ab5d2ba85a4f1ce6e8519db8ea681ab13490523a186/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/67e2c62aac64fc7ee9d19791f3d309874353a20323e7390c101f1c10/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/4fb5a26e2e7558278c069c0ce6f72b672054069ddbac96f2b4d951f4/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/8b4e44e1cdc30e49e8c21edb97e389be3a07b34f1c45cac0b3ef7de7/d324a6fb/@2x.png",
+                                        "width": 13,
+                                        "height": 16,
+                                        "ui_role": "vehicle_compact",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/83a375cedd40ff34d59ffc95791be1a130c712d0799ffb782b26eeef/d324a6fb/@2x.png",
+                                        "width": 24,
+                                        "height": 33,
+                                        "ui_role": "vehicle",
+                                        "is_generic": true
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "url": "https://d3440lt1d9mf95.cloudfront.net/c1f9e48cea3ae347184679d4bee9750739711a6a6c9592132d3fdf27/d324a6fb/@2x.png",
+                                    "width": 24,
+                                    "height": 24,
+                                    "ui_role": "service",
+                                    "replaces_name": true
+                                },
+                                {
+                                    "url": "https://d3440lt1d9mf95.cloudfront.net/571672994d5e2ffeb276843166ac3da665c6047588c068c1a92a5032/d324a6fb/@2x.png",
+                                    "width": 16,
+                                    "height": 16,
+                                    "ui_role": "service",
+                                    "replaces_name": true
+                                }
+                            ],
+                            "color": "#FF5A00",
+                            "background_color": "#FF5A00",
+                            "text_color": "#FFFFFF"
+                        }
+                    ],
+                    "direction_description": "Hôpital Américain"
+                },
+                {
+                    "travel_mode": "walk",
+                    "duration_seconds": 120,
+                    "path": "_abiHyigM@UD?H@H?D?NALg@He@?C@COI",
+                    "updatable_detail": {
+                        "leg_departure_time": "2022-02-27T16:59:00+01:00",
+                        "leg_arrival_time": "2022-02-27T17:01:00+01:00"
+                    },
+                    "station_walk_type": "enter_station",
+                    "walk_details_enter_station": {
+                        "recommended_exit": {
+                            "id": "ParisStation_Port_Royal_E10881",
+                            "stop_id": "ParisStation_Port_Royal",
+                            "coordinates": {
+                                "lat": 48.8396952,
+                                "lon": 2.3370416
+                            }
+                        },
+                        "duration_seconds": 60
+                    }
+                },
+                {
+                    "travel_mode": "transit",
+                    "duration_seconds": 1620,
+                    "path": "eabiH{mgM??vCf@b@@d@VhA|@`RxQpBdB`A^x@GfAGhKiCfA]t@a@`Aw@tDmEf@a@~@i@dA[rAm@tMuCxAObDs@`FwAlCo@fBq@vEuCbA_@x@OzAEbAC~ASzXgIzA[DA~AM`AD`ANjBn@~@f@lA`AhBhBjAvAvFlIjFrI|EjH|CpElDlEtFbItCtCfBvA|@d@|@\\xAXhRjBdFl@jLpAnBf@dAb@fBhAr@p@lAtAn@bAf@dAv@xBl@fCd@rCZhDH`B?@RtINzBXzBXrA\\fAr@~Ab@t@h@r@jA`AdHzDrMbIbB~@vFvCpH`D~@\\tAZz@HjA?`BOzDk@~@G~ADvATp@VTHdTzJ~CfAzAZjAPr@DfBCpCO~Fq@nAI`BAhBDt@HTB~B\\jAXfA\\dBr@rC~AdAt@`UbRfEnCjD`B??~e@~QhExA~CdAzBn@fDt@hd@pGlBd@hBn@hB~@vA~@rBfBv@x@LNxAfBxBlDdBtDl@bBl@jBjLpe@hClKf@fB~AvEpDrIr@`C^dBNjAf@jFRvAd@bCfCfKbEjQz@tD\\pA~BbHj@zAZr@bAbBh@n@l@h@jF~DlAvAzMlSjDzEdHhLxIrL\\u@",
+                    "stops": [
+                        {
+                            "id": "ParisStation_Port_Royal",
+                            "name": "Port-Royal",
+                            "coordinates": {
+                                "lat": 48.839915,
+                                "lon": 2.337114
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Denfert_Rochereau_RATPMetro",
+                            "name": "Denfert-Rochereau",
+                            "coordinates": {
+                                "lat": 48.833997,
+                                "lon": 2.332532
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Cite_Universitaire_RER",
+                            "name": "Cité Universitaire",
+                            "coordinates": {
+                                "lat": 48.820654,
+                                "lon": 2.339007
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Gentilly",
+                            "name": "Gentilly",
+                            "coordinates": {
+                                "lat": 48.815334,
+                                "lon": 2.340768
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Laplace",
+                            "name": "Laplace",
+                            "coordinates": {
+                                "lat": 48.808297,
+                                "lon": 2.334354
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Arcueil_Cachan",
+                            "name": "Arcueil - Cachan",
+                            "coordinates": {
+                                "lat": 48.798892,
+                                "lon": 2.328137
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Bagneux",
+                            "name": "Bagneux",
+                            "coordinates": {
+                                "lat": 48.793336,
+                                "lon": 2.322202
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Bourg_la_Reine",
+                            "name": "Bourg-la-Reine",
+                            "coordinates": {
+                                "lat": 48.780284,
+                                "lon": 2.312464
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Parc_de_Sceaux",
+                            "name": "Parc de Sceaux",
+                            "coordinates": {
+                                "lat": 48.770679,
+                                "lon": 2.310196
+                            }
+                        },
+                        {
+                            "id": "ParisStation_La_Croix_de_Berny",
+                            "name": "La Croix de Berny",
+                            "coordinates": {
+                                "lat": 48.762315,
+                                "lon": 2.304604
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Antony_sncf_rer",
+                            "name": "Antony",
+                            "coordinates": {
+                                "lat": 48.754904,
+                                "lon": 2.301003
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Fontaine_Michalon",
+                            "name": "Fontaine Michalon",
+                            "coordinates": {
+                                "lat": 48.743459,
+                                "lon": 2.296541
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Les_Baconnets",
+                            "name": "Les Baconnets",
+                            "coordinates": {
+                                "lat": 48.739533,
+                                "lon": 2.287277
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Massy_Verrieres",
+                            "name": "Massy - Verrières",
+                            "coordinates": {
+                                "lat": 48.734402,
+                                "lon": 2.273644
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Massy_Palaiseau",
+                            "name": "Massy - Palaiseau",
+                            "coordinates": {
+                                "lat": 48.724746,
+                                "lon": 2.257196
+                            }
+                        }
+                    ],
+                    "updatable_detail": {
+                        "departures": [
+                            {
+                                "type": "scheduled",
+                                "service_id": "RERB",
+                                "headsign": "Massy - Palaiseau",
+                                "short_name": "KALE",
+                                "scheduled_time": "2022-02-27T17:02:00+01:00",
+                                "time_status": "unknown"
+                            }
+                        ],
+                        "live_departure_availability": "unknown",
+                        "statuses": [
+                            {
+                                "type": "no_issues",
+                                "service_ids": [
+                                    "RERB"
+                                ]
+                            }
+                        ],
+                        "leg_departure_time": "2022-02-27T17:02:00+01:00",
+                        "leg_arrival_time": "2022-02-27T17:29:00+01:00"
+                    },
+                    "vehicle_types": [
+                        "rail"
+                    ],
+                    "services": [
+                        {
+                            "id": "RERB",
+                            "name": "RER B",
+                            "vehicle_types": [
+                                "rail"
+                            ],
+                            "brand": {
+                                "id": "RER",
+                                "name": "RER",
+                                "images": [
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/0efa8df0938a92bf11ed1b4437b995eb92654062f352a0168591b83a/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/b3306f2538a7c7c0ecb6d405c70f445ee84274d4d5af90bdcc391af6/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/060744902754d47a6c1cd8f50dcb771dbab6b0b6aaed508271f534c5/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/027b9a09a3dc4e8fdb8f0ac13a4ab9b4be358795f46afcc6dca29689/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/5562ddee195aac1d10c76950ce44ef5b80ca93141c96b23e9c6745ea/d324a6fb/@2x.png",
+                                        "width": 13,
+                                        "height": 16,
+                                        "ui_role": "vehicle_compact",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/973833a27d4c0799db032ea169c7e05c526b30f4858bd41259b39ce4/d324a6fb/@2x.png",
+                                        "width": 24,
+                                        "height": 33,
+                                        "ui_role": "vehicle",
+                                        "is_generic": true
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "url": "https://d3440lt1d9mf95.cloudfront.net/925ecd8d28467b227bc95082c0c9b15760000706401d0590d9c3f584/d324a6fb/@2x.png",
+                                    "width": 24,
+                                    "height": 24,
+                                    "ui_role": "service",
+                                    "replaces_name": true
+                                },
+                                {
+                                    "url": "https://d3440lt1d9mf95.cloudfront.net/3fd8ee2c087fea4999225c212542eb319b34029e314092890228388e/d324a6fb/@2x.png",
+                                    "width": 16,
+                                    "height": 16,
+                                    "ui_role": "service",
+                                    "replaces_name": true
+                                }
+                            ],
+                            "color": "#427DBD",
+                            "background_color": "#427DBD",
+                            "text_color": "#FFFFFF"
+                        }
+                    ],
+                    "best_boarding_sections": {
+                        "front": false,
+                        "middle": true,
+                        "back": false
+                    }
+                },
+                {
+                    "travel_mode": "walk",
+                    "duration_seconds": 294,
+                    "path": "ulkhHkgxLd@cATXDHDDBFPRPNATAFDDFDFBHFFBHFFB@@H|@HJ@B@DDD?J?V@Ni@R",
+                    "updatable_detail": {
+                        "leg_departure_time": "2022-02-27T17:29:00+01:00",
+                        "leg_arrival_time": "2022-02-27T17:33:54+01:00"
+                    },
+                    "station_walk_type": "exit_station",
+                    "walk_details_exit_station": {
+                        "recommended_exit": {
+                            "id": "ParisStation_Massy_Palaiseau_E3",
+                            "stop_id": "ParisStation_Massy_Palaiseau",
+                            "coordinates": {
+                                "lat": 48.7241051,
+                                "lon": 2.2592547
+                            },
+                            "name": "avenue Ramolfo Garnier",
+                            "short_name": "3"
+                        },
+                        "alternate_exits": [
+                            {
+                                "id": "ParisStation_Massy_Palaiseau_E1",
+                                "stop_id": "ParisStation_Massy_Palaiseau",
+                                "coordinates": {
+                                    "lat": 48.7248516,
+                                    "lon": 2.26046
+                                },
+                                "name": "Massy Atlantis",
+                                "short_name": "1"
+                            },
+                            {
+                                "id": "ParisStation_Massy_Palaiseau_E2",
+                                "stop_id": "ParisStation_Massy_Palaiseau",
+                                "coordinates": {
+                                    "lat": 48.7264211,
+                                    "lon": 2.2575282
+                                },
+                                "name": "Massy Vilmorin",
+                                "short_name": "2"
+                            },
+                            {
+                                "id": "ParisStation_Massy_Palaiseau_E4",
+                                "stop_id": "ParisStation_Massy_Palaiseau",
+                                "coordinates": {
+                                    "lat": 48.7248725,
+                                    "lon": 2.256561
+                                },
+                                "name": "place Pierre Sémard"
+                            }
+                        ],
+                        "duration_seconds": 130
+                    }
+                },
+                {
+                    "travel_mode": "transit",
+                    "duration_seconds": 600,
+                    "path": "wgkhHo_xLBGFJx@vAhInKnAbApCnAf@l@Db@Ch@[~@oCbGaAtFi@nFU~@aBbE{C|HoB~DyBnI_@jBo@bGC`HA|Cb@xFLt@\\z@r@~EbD~JvDtKf@hAr@r@fKvE|CtATBNf@^PJC?f@Q`DYnQeAbYId@Jn@l@vAbApEr@`JLp@Zl@`@ZlATrB`CEr@\\t@f@@Xg@Bq@Og@Bo@pAaDbCmE|AkBrCkBpCs@xCBbExA|BzBtBhETzAV|AExPv@bWCnHEBDCBoHw@wXH_NY{CqAqDmBsCeBsAgC_AqCQuCd@iCpAqAnA{B`DuCtGa@Zc@PoBiCiCmFq@eC_DcO@aATaJUq@g@WsAOe@PYd@C`@h@lLLlEJvL`@~BlA|ELvCw@jh@{@lK_ExTy@xDMb@N`@L?bAxAZRnt@jLDe@?E",
+                    "stops": [
+                        {
+                            "id": "ParisStop_GareMassyPalaiseau_W",
+                            "name": "Massy - Palaiseau RER",
+                            "coordinates": {
+                                "lat": 48.723324,
+                                "lon": 2.257997
+                            }
+                        },
+                        {
+                            "id": "ParisStop_PalaiseauVille_NW",
+                            "name": "Palaiseau Ville",
+                            "coordinates": {
+                                "lat": 48.72199,
+                                "lon": 2.24884
+                            }
+                        },
+                        {
+                            "id": "ParisStop_LaVallee_SW",
+                            "name": "La Vallée",
+                            "coordinates": {
+                                "lat": 48.724406,
+                                "lon": 2.241314
+                            }
+                        },
+                        {
+                            "id": "ParisStop_CamilleClaudel_W",
+                            "name": "Camille Claudel",
+                            "coordinates": {
+                                "lat": 48.719552,
+                                "lon": 2.231869
+                            }
+                        },
+                        {
+                            "id": "ParisStop_EnstaLesJoncherettes_W",
+                            "name": "Ensta - Les Joncherettes",
+                            "coordinates": {
+                                "lat": 48.710194,
+                                "lon": 2.218959
+                            }
+                        },
+                        {
+                            "id": "ParisStop_PolytechniqueLozere_NW_2",
+                            "name": "Polytechnique Lozère",
+                            "coordinates": {
+                                "lat": 48.709954,
+                                "lon": 2.209815
+                            }
+                        },
+                        {
+                            "id": "ParisStop_FermeDeLaVauve_N_3",
+                            "name": "Ferme de la Vauve",
+                            "coordinates": {
+                                "lat": 48.711618,
+                                "lon": 2.201594
+                            }
+                        }
+                    ],
+                    "updatable_detail": {
+                        "departures": [
+                            {
+                                "type": "frequency",
+                                "service_id": "STIFBus_Albatrans9106",
+                                "frequency_seconds_range": [
+                                    810,
+                                    810
+                                ],
+                                "time_status": "unknown"
+                            },
+                            {
+                                "type": "frequency",
+                                "service_id": "STIFBus_Albatrans9110",
+                                "frequency_seconds_range": [
+                                    810,
+                                    810
+                                ],
+                                "time_status": "unknown"
+                            }
+                        ],
+                        "live_departure_availability": "unknown",
+                        "statuses": [
+                            {
+                                "type": "no_issues",
+                                "service_ids": [
+                                    "STIFBus_Albatrans9106",
+                                    "STIFBus_Albatrans9110"
+                                ]
+                            }
+                        ],
+                        "leg_departure_time": "2022-02-27T17:39:00+01:00",
+                        "leg_arrival_time": "2022-02-27T17:49:00+01:00"
+                    },
+                    "vehicle_types": [
+                        "bus"
+                    ],
+                    "services": [
+                        {
+                            "id": "STIFBus_Albatrans9106",
+                            "name": "91-06",
+                            "vehicle_types": [
+                                "bus"
+                            ],
+                            "brand": {
+                                "id": "STIFBus_Albatrans",
+                                "name": "Bus Albatrans",
+                                "images": [
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/d97d11b98e1d4178335067f3948cb80ec1b98badab6d5aa6af62afbf/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/bb11377addd08ab5d2ba85a4f1ce6e8519db8ea681ab13490523a186/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/67e2c62aac64fc7ee9d19791f3d309874353a20323e7390c101f1c10/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/4fb5a26e2e7558278c069c0ce6f72b672054069ddbac96f2b4d951f4/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/8b4e44e1cdc30e49e8c21edb97e389be3a07b34f1c45cac0b3ef7de7/d324a6fb/@2x.png",
+                                        "width": 13,
+                                        "height": 16,
+                                        "ui_role": "vehicle_compact",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/83a375cedd40ff34d59ffc95791be1a130c712d0799ffb782b26eeef/d324a6fb/@2x.png",
+                                        "width": 24,
+                                        "height": 33,
+                                        "ui_role": "vehicle",
+                                        "is_generic": true
+                                    }
+                                ]
+                            },
+                            "color": "#1AC7FF",
+                            "background_color": "#1AC7FF",
+                            "text_color": "#FFFFFF"
+                        },
+                        {
+                            "id": "STIFBus_Albatrans9110",
+                            "name": "91-10",
+                            "vehicle_types": [
+                                "bus"
+                            ],
+                            "brand": {
+                                "id": "STIFBus_Albatrans",
+                                "name": "Bus Albatrans",
+                                "images": [
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/d97d11b98e1d4178335067f3948cb80ec1b98badab6d5aa6af62afbf/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/bb11377addd08ab5d2ba85a4f1ce6e8519db8ea681ab13490523a186/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/67e2c62aac64fc7ee9d19791f3d309874353a20323e7390c101f1c10/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/4fb5a26e2e7558278c069c0ce6f72b672054069ddbac96f2b4d951f4/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/8b4e44e1cdc30e49e8c21edb97e389be3a07b34f1c45cac0b3ef7de7/d324a6fb/@2x.png",
+                                        "width": 13,
+                                        "height": 16,
+                                        "ui_role": "vehicle_compact",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/83a375cedd40ff34d59ffc95791be1a130c712d0799ffb782b26eeef/d324a6fb/@2x.png",
+                                        "width": 24,
+                                        "height": 33,
+                                        "ui_role": "vehicle",
+                                        "is_generic": true
+                                    }
+                                ]
+                            },
+                            "color": "#1AC7FF",
+                            "background_color": "#1AC7FF",
+                            "text_color": "#000000"
+                        }
+                    ],
+                    "direction_description": "Christ de Saclay | Saint-Quentin - Gare Routière des Prés"
+                },
+                {
+                    "travel_mode": "walk",
+                    "duration_seconds": 203,
+                    "path": "s~hhH}~lL?DKAoAWCd@UEALOBc@jI",
+                    "updatable_detail": {
+                        "leg_departure_time": "2022-02-27T17:49:00+01:00",
+                        "leg_arrival_time": "2022-02-27T17:52:23+01:00"
+                    }
+                }
+            ],
+            "route_departure_time": "2022-02-27T16:39:25+01:00",
+            "route_arrival_time": "2022-02-27T17:52:23+01:00",
+            "signature": "v2.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjbTp0cmFuc2l0MSIsImlhdCI6MTY0NTk3NjM2NiwiZnJvbnRlbmRfc2lnbmF0dXJlIjoie1wiY2FyXCI6MjU1MjQsXCJkdXJhdGlvblwiOjQzMTUsXCJlbmRcIjp7XCJjb29yZHNcIjpcIjQ4LjcxMjkxMiwyLjE5OTg4OVwifSxcImpyX2luZGV4XCI6MSxcImxlZ3NcIjpbe1wiZGlzdGFuY2VcIjo0MDYsXCJkdXJhdGlvblwiOjMzNixcImVjXCI6XCI0OC44NDcyMywyLjM0MDJcIixcIm1vZGVcIjpcIndhbGtcIixcInNjXCI6XCI0OC44NDgxMSwyLjM0NDA2XCJ9LHtcImR1cmF0aW9uXCI6MjQwLFwiZW5kXCI6XCJQYXJpc1N0b3BfT2JzZXJ2YXRvaXJlUG9ydFJveWFsX1NcIixcIm1vZGVcIjpcInRyYW5zaXRcIixcInJvdXRlX2lkc1wiOltcIlJBVFBCdXM4MlwiXSxcInN0YXJ0XCI6XCJQYXJpc1N0b3BfTHV4ZW1ib3VyZ1dfMVwiLFwic3RvcF9jb3VudFwiOjR9LHtcImRpc3RhbmNlXCI6MTE2LFwiZHVyYXRpb25cIjoxMjAsXCJlY1wiOlwiNDguODM5NywyLjMzNzA0XCIsXCJpbl9zdGF0aW9uXCI6XCIwLzYwXCIsXCJtb2RlXCI6XCJ3YWxrXCIsXCJzY1wiOlwiNDguODQsMi4zMzY0NVwiLFwidG9fZXhpdFwiOlwiUGFyaXNTdGF0aW9uX1BvcnRfUm95YWxfRTEwODgxXCJ9LHtcImR1cmF0aW9uXCI6MTYyMCxcImVuZFwiOlwiUGFyaXNTdGF0aW9uX01hc3N5X1BhbGFpc2VhdVwiLFwibW9kZVwiOlwidHJhbnNpdFwiLFwicm91dGVfaWRzXCI6W1wiUkVSQlwiXSxcInN0YXJ0XCI6XCJQYXJpc1N0YXRpb25fUG9ydF9Sb3lhbFwiLFwic3RvcF9jb3VudFwiOjE1LFwic3RvcF9pZHNcIjpbXCJQbGF0Zm9ybV9QYXJpc1BvcnRSb3lhbF9SYl9kU1dcIixcIlBsYXRmb3JtX1BhcmlzTWFzc3lQYWxhaXNlYXVfUmJfZFNXXCJdfSx7XCJkaXN0YW5jZVwiOjUyMyxcImR1cmF0aW9uXCI6Mjk0LFwiZWNcIjpcIjQ4LjcyMzMyLDIuMjU4XCIsXCJmcm9tX2V4aXRcIjpcIlBhcmlzU3RhdGlvbl9NYXNzeV9QYWxhaXNlYXVfRTNcIixcImluX3N0YXRpb25cIjpcIjIvMTMwXCIsXCJtb2RlXCI6XCJ3YWxrXCIsXCJzY1wiOlwiNDguNzI0MTEsMi4yNTkyNlwifSx7XCJkdXJhdGlvblwiOjYwMCxcImVuZFwiOlwiUGFyaXNTdG9wX0Zlcm1lRGVMYVZhdXZlX05fM1wiLFwibW9kZVwiOlwidHJhbnNpdFwiLFwicm91dGVfaWRzXCI6W1wiU1RJRkJ1c19BbGJhdHJhbnM5MTA2XCIsXCJTVElGQnVzX0FsYmF0cmFuczkxMTBcIl0sXCJzdGFydFwiOlwiUGFyaXNTdG9wX0dhcmVNYXNzeVBhbGFpc2VhdV9XXCIsXCJzdG9wX2NvdW50XCI6N30se1wiZGlzdGFuY2VcIjoyMTgsXCJkdXJhdGlvblwiOjIwMyxcImVjXCI6XCI0OC43MTI0OCwyLjE5OTc4XCIsXCJtb2RlXCI6XCJ3YWxrXCIsXCJzY1wiOlwiNDguNzExNjIsMi4yMDE1OVwifV0sXCJwcmljZV9wZW5jZVwiOjU1NSxcInJlZ2lvblwiOlwiZnItcGFyaXNcIixcInJvdXRpbmdfcmVxdWVzdF9pZFwiOlwiMDZhNjk5OWEtNzI4MS00Y2QwLTk3YTktYjE5YTYzMmNlMGQxXCIsXCJzdGFydFwiOntcImNvb3Jkc1wiOlwiNDguODQ4MDc0LDIuMzQ0MTkzXCJ9LFwidGltZVwiOlwiMjAyMi0wMi0yN1QxNjozOToyNSswMTowMC9OT1dJU0hcIixcInZlcnNpb25cIjoyfSIsInJlZ2lvbl9pZCI6ImZyLXBhcmlzIn0.MVYmYqrNgIy1jD4xfOIMpb6q2LZSpfcIMOjFkcjfFuE"
+        },
+        {
+            "start": {
+                "coordinates": {
+                    "lat": 48.848074,
+                    "lon": 2.344193
+                }
+            },
+            "end": {
+                "coordinates": {
+                    "lat": 48.712912,
+                    "lon": 2.199889
+                }
+            },
+            "duration_seconds": 3608,
+            "duration_accuracy": "scheduled",
+            "price": {
+                "formatted": "5.55€",
+                "amount": "5.55",
+                "currency": "EUR"
+            },
+            "legs": [
+                {
+                    "travel_mode": "walk",
+                    "duration_seconds": 342,
+                    "path": "usciHkyhMoB}@iCkA]OOGGX[fBY~AEPERMb@?@Sp@Ql@CLGPEN?JXN|Av@CJ",
+                    "updatable_detail": {
+                        "leg_departure_time": "2022-02-27T16:39:25+01:00",
+                        "leg_arrival_time": "2022-02-27T16:45:07+01:00"
+                    }
+                },
+                {
+                    "travel_mode": "transit",
+                    "duration_seconds": 180,
+                    "path": "y}ciHomhMbTtK",
+                    "stops": [
+                        {
+                            "id": "ParisStop_Les_EcolesW_2",
+                            "name": "Les Écoles",
+                            "coordinates": {
+                                "lat": 48.849726,
+                                "lon": 2.34216
+                            }
+                        },
+                        {
+                            "id": "ParisStop_Luxembourg_S_3",
+                            "name": "Luxembourg",
+                            "coordinates": {
+                                "lat": 48.846351,
+                                "lon": 2.340131
+                            }
+                        }
+                    ],
+                    "updatable_detail": {
+                        "departures": [
+                            {
+                                "type": "frequency",
+                                "service_id": "RATPBus38",
+                                "frequency_seconds_range": [
+                                    176,
+                                    176
+                                ],
+                                "time_status": "unknown"
+                            }
+                        ],
+                        "live_departure_availability": "unknown",
+                        "statuses": [
+                            {
+                                "type": "no_issues",
+                                "service_ids": [
+                                    "RATPBus38"
+                                ]
+                            }
+                        ],
+                        "leg_departure_time": "2022-02-27T16:48:00+01:00",
+                        "leg_arrival_time": "2022-02-27T16:51:00+01:00"
+                    },
+                    "vehicle_types": [
+                        "bus"
+                    ],
+                    "services": [
+                        {
+                            "id": "RATPBus38",
+                            "name": "38",
+                            "vehicle_types": [
+                                "bus"
+                            ],
+                            "brand": {
+                                "id": "RATPBus",
+                                "name": "Bus",
+                                "images": [
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/d97d11b98e1d4178335067f3948cb80ec1b98badab6d5aa6af62afbf/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/bb11377addd08ab5d2ba85a4f1ce6e8519db8ea681ab13490523a186/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/67e2c62aac64fc7ee9d19791f3d309874353a20323e7390c101f1c10/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/4fb5a26e2e7558278c069c0ce6f72b672054069ddbac96f2b4d951f4/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/8b4e44e1cdc30e49e8c21edb97e389be3a07b34f1c45cac0b3ef7de7/d324a6fb/@2x.png",
+                                        "width": 13,
+                                        "height": 16,
+                                        "ui_role": "vehicle_compact",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/83a375cedd40ff34d59ffc95791be1a130c712d0799ffb782b26eeef/d324a6fb/@2x.png",
+                                        "width": 24,
+                                        "height": 33,
+                                        "ui_role": "vehicle",
+                                        "is_generic": true
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "url": "https://d3440lt1d9mf95.cloudfront.net/79b7f26683f0a0e5825535b531db02594ed2deb61d17e219f9f62722/d324a6fb/@2x.png",
+                                    "width": 24,
+                                    "height": 24,
+                                    "ui_role": "service",
+                                    "replaces_name": true
+                                },
+                                {
+                                    "url": "https://d3440lt1d9mf95.cloudfront.net/93aca94ab4a4a2af96a4ff61dcc7fce61f37ef7c4ffd5f3ab8c0d7f2/d324a6fb/@2x.png",
+                                    "width": 16,
+                                    "height": 16,
+                                    "ui_role": "service",
+                                    "replaces_name": true
+                                }
+                            ],
+                            "color": "#0055C8",
+                            "background_color": "#0055C8",
+                            "text_color": "#FFFFFF"
+                        }
+                    ],
+                    "direction_description": "Porte d'Orléans"
+                },
+                {
+                    "travel_mode": "walk",
+                    "duration_seconds": 93,
+                    "path": "uhciHy`hMD]A?i@WDY",
+                    "updatable_detail": {
+                        "leg_departure_time": "2022-02-27T16:51:00+01:00",
+                        "leg_arrival_time": "2022-02-27T16:52:33+01:00"
+                    },
+                    "station_walk_type": "enter_station",
+                    "walk_details_enter_station": {
+                        "recommended_exit": {
+                            "id": "ParisStation_Luxembourg_E3379",
+                            "stop_id": "ParisStation_Luxembourg",
+                            "coordinates": {
+                                "lat": 48.8465045,
+                                "lon": 2.3405253
+                            },
+                            "name": "rue Gay Lussac",
+                            "short_name": "2"
+                        },
+                        "alternate_exits": [
+                            {
+                                "id": "ParisStation_Luxembourg_E25271",
+                                "stop_id": "ParisStation_Luxembourg",
+                                "coordinates": {
+                                    "lat": 48.844306,
+                                    "lon": 2.339085
+                                },
+                                "name": "rue Auguste Comte",
+                                "short_name": "4"
+                            },
+                            {
+                                "id": "ParisStation_Luxembourg_E3377",
+                                "stop_id": "ParisStation_Luxembourg",
+                                "coordinates": {
+                                    "lat": 48.844291,
+                                    "lon": 2.3393237
+                                },
+                                "name": "rue de l'Abbé de l'Épée",
+                                "short_name": "3"
+                            },
+                            {
+                                "id": "ParisStation_Luxembourg_E3380",
+                                "stop_id": "ParisStation_Luxembourg",
+                                "coordinates": {
+                                    "lat": 48.8468196,
+                                    "lon": 2.340359
+                                },
+                                "name": "Place Edmond Rostand",
+                                "short_name": "1"
+                            }
+                        ],
+                        "duration_seconds": 60
+                    }
+                },
+                {
+                    "travel_mode": "transit",
+                    "duration_seconds": 1260,
+                    "path": "ylciHochMBMFDd]fOpI~CnARvCf@b@@d@VhA|@`RxQpBdB`A^x@GfAGhKiCfA]t@a@`Aw@tDmEf@a@~@i@dA[rAm@tMuCxAObDs@`FwAlCo@fBq@vEuCbA_@x@OzAEbAC~ASzXgI`B]~AM`AD`ANjBn@~@f@lA`AhBhBjAvAvFlIjFrIzJ|NlDlEtFbItCtCfBvA|@d@|@\\xAXhRjBpS~BnBf@dAb@fBhAr@p@lAtAn@bAf@dAv@xBl@fCd@rCZhDHbBRtINzBXzBXrA\\fAr@~Ab@t@h@r@jA`AdHzDrMbIbB~@vFvCpH`D~@\\tAZz@HjA?`BOzDk@~@G~ADvATp@VTHdTzJ~CfAzAZjAPr@DfBCpCO~Fq@nAI`BAhBDjAL~B\\jAXfA\\dBr@rC~AdAt@`UbRfEnCjD`B??~e@~QhExA~CdAzBn@fDt@hd@pGlBd@hBn@hB~@vA~@rBfBv@x@fBvBxBlDdBtDl@bBl@jBtP~q@f@fB~AvEpDrIr@`C^dBNjAf@jFRvAd@bCfCfK~F`W\\pA~BbHj@zAZr@bAbBh@n@l@h@jF~DlAvAzMlSjDzEdHhLxIrL\\u@",
+                    "stops": [
+                        {
+                            "id": "ParisStation_Luxembourg",
+                            "name": "Luxembourg",
+                            "coordinates": {
+                                "lat": 48.846185,
+                                "lon": 2.340241
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Port_Royal",
+                            "name": "Port-Royal",
+                            "coordinates": {
+                                "lat": 48.839915,
+                                "lon": 2.337114
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Denfert_Rochereau_RATPMetro",
+                            "name": "Denfert-Rochereau",
+                            "coordinates": {
+                                "lat": 48.833997,
+                                "lon": 2.332532
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Cite_Universitaire_RER",
+                            "name": "Cité Universitaire",
+                            "coordinates": {
+                                "lat": 48.820654,
+                                "lon": 2.339007
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Bourg_la_Reine",
+                            "name": "Bourg-la-Reine",
+                            "coordinates": {
+                                "lat": 48.780284,
+                                "lon": 2.312464
+                            }
+                        },
+                        {
+                            "id": "ParisStation_La_Croix_de_Berny",
+                            "name": "La Croix de Berny",
+                            "coordinates": {
+                                "lat": 48.762315,
+                                "lon": 2.304604
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Antony_sncf_rer",
+                            "name": "Antony",
+                            "coordinates": {
+                                "lat": 48.754904,
+                                "lon": 2.301003
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Massy_Palaiseau",
+                            "name": "Massy - Palaiseau",
+                            "coordinates": {
+                                "lat": 48.724746,
+                                "lon": 2.257196
+                            }
+                        }
+                    ],
+                    "updatable_detail": {
+                        "departures": [
+                            {
+                                "type": "scheduled",
+                                "service_id": "RERB",
+                                "headsign": "Saint-Rémy-Lès-Chevreuse",
+                                "short_name": "PIRE",
+                                "scheduled_time": "2022-02-27T16:57:00+01:00",
+                                "time_status": "unknown"
+                            }
+                        ],
+                        "live_departure_availability": "unknown",
+                        "statuses": [
+                            {
+                                "type": "no_issues",
+                                "service_ids": [
+                                    "RERB"
+                                ]
+                            }
+                        ],
+                        "leg_departure_time": "2022-02-27T16:57:00+01:00",
+                        "leg_arrival_time": "2022-02-27T17:18:00+01:00"
+                    },
+                    "vehicle_types": [
+                        "rail"
+                    ],
+                    "services": [
+                        {
+                            "id": "RERB",
+                            "name": "RER B",
+                            "vehicle_types": [
+                                "rail"
+                            ],
+                            "brand": {
+                                "id": "RER",
+                                "name": "RER",
+                                "images": [
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/0efa8df0938a92bf11ed1b4437b995eb92654062f352a0168591b83a/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/b3306f2538a7c7c0ecb6d405c70f445ee84274d4d5af90bdcc391af6/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/060744902754d47a6c1cd8f50dcb771dbab6b0b6aaed508271f534c5/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/027b9a09a3dc4e8fdb8f0ac13a4ab9b4be358795f46afcc6dca29689/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/5562ddee195aac1d10c76950ce44ef5b80ca93141c96b23e9c6745ea/d324a6fb/@2x.png",
+                                        "width": 13,
+                                        "height": 16,
+                                        "ui_role": "vehicle_compact",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/973833a27d4c0799db032ea169c7e05c526b30f4858bd41259b39ce4/d324a6fb/@2x.png",
+                                        "width": 24,
+                                        "height": 33,
+                                        "ui_role": "vehicle",
+                                        "is_generic": true
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "url": "https://d3440lt1d9mf95.cloudfront.net/925ecd8d28467b227bc95082c0c9b15760000706401d0590d9c3f584/d324a6fb/@2x.png",
+                                    "width": 24,
+                                    "height": 24,
+                                    "ui_role": "service",
+                                    "replaces_name": true
+                                },
+                                {
+                                    "url": "https://d3440lt1d9mf95.cloudfront.net/3fd8ee2c087fea4999225c212542eb319b34029e314092890228388e/d324a6fb/@2x.png",
+                                    "width": 16,
+                                    "height": 16,
+                                    "ui_role": "service",
+                                    "replaces_name": true
+                                }
+                            ],
+                            "color": "#427DBD",
+                            "background_color": "#427DBD",
+                            "text_color": "#FFFFFF"
+                        }
+                    ],
+                    "best_boarding_sections": {
+                        "front": false,
+                        "middle": true,
+                        "back": false
+                    }
+                },
+                {
+                    "travel_mode": "walk",
+                    "duration_seconds": 294,
+                    "path": "ulkhHkgxLd@cATXDHDDBFPRPNATAFDDFDFBHFFBHFFB@@H|@HJ@B@DDD?J?V@Ni@R",
+                    "updatable_detail": {
+                        "leg_departure_time": "2022-02-27T17:18:00+01:00",
+                        "leg_arrival_time": "2022-02-27T17:22:54+01:00"
+                    },
+                    "station_walk_type": "exit_station",
+                    "walk_details_exit_station": {
+                        "recommended_exit": {
+                            "id": "ParisStation_Massy_Palaiseau_E3",
+                            "stop_id": "ParisStation_Massy_Palaiseau",
+                            "coordinates": {
+                                "lat": 48.7241051,
+                                "lon": 2.2592547
+                            },
+                            "name": "avenue Ramolfo Garnier",
+                            "short_name": "3"
+                        },
+                        "alternate_exits": [
+                            {
+                                "id": "ParisStation_Massy_Palaiseau_E1",
+                                "stop_id": "ParisStation_Massy_Palaiseau",
+                                "coordinates": {
+                                    "lat": 48.7248516,
+                                    "lon": 2.26046
+                                },
+                                "name": "Massy Atlantis",
+                                "short_name": "1"
+                            },
+                            {
+                                "id": "ParisStation_Massy_Palaiseau_E2",
+                                "stop_id": "ParisStation_Massy_Palaiseau",
+                                "coordinates": {
+                                    "lat": 48.7264211,
+                                    "lon": 2.2575282
+                                },
+                                "name": "Massy Vilmorin",
+                                "short_name": "2"
+                            },
+                            {
+                                "id": "ParisStation_Massy_Palaiseau_E4",
+                                "stop_id": "ParisStation_Massy_Palaiseau",
+                                "coordinates": {
+                                    "lat": 48.7248725,
+                                    "lon": 2.256561
+                                },
+                                "name": "place Pierre Sémard"
+                            }
+                        ],
+                        "duration_seconds": 130
+                    }
+                },
+                {
+                    "travel_mode": "transit",
+                    "duration_seconds": 600,
+                    "path": "wgkhHo_xLBGFJx@vAhInKnAbApCnAf@l@Db@Ch@[~@oCbGaAtFi@nFU~@aBbE{C|HoB~DyBnI_@jBo@bGC`HA|Cb@xFLt@\\z@r@~EbD~JvDtKf@hAr@r@fKvE|CtATBNf@^PJC?f@Q`DYnQeAbYId@Jn@l@vAbApEr@`JLp@Zl@`@ZlATrB`CEr@\\t@f@@Xg@Bq@Og@Bo@pAaDbCmE|AkBrCkBpCs@xCBbExA|BzBtBhETzAV|AExPv@bWCnHEBDCBoHw@wXH_NY{CqAqDmBsCeBsAgC_AqCQuCd@iCpAqAnA{B`DuCtGa@Zc@PoBiCiCmFq@eC_DcO@aATaJUq@g@WsAOe@PYd@C`@h@lLLlEJvL`@~BlA|ELvCw@jh@{@lK_ExTy@xDMb@N`@L?bAxAZRnt@jLDe@?E",
+                    "stops": [
+                        {
+                            "id": "ParisStop_GareMassyPalaiseau_W",
+                            "name": "Massy - Palaiseau RER",
+                            "coordinates": {
+                                "lat": 48.723324,
+                                "lon": 2.257997
+                            }
+                        },
+                        {
+                            "id": "ParisStop_PalaiseauVille_NW",
+                            "name": "Palaiseau Ville",
+                            "coordinates": {
+                                "lat": 48.72199,
+                                "lon": 2.24884
+                            }
+                        },
+                        {
+                            "id": "ParisStop_LaVallee_SW",
+                            "name": "La Vallée",
+                            "coordinates": {
+                                "lat": 48.724406,
+                                "lon": 2.241314
+                            }
+                        },
+                        {
+                            "id": "ParisStop_CamilleClaudel_W",
+                            "name": "Camille Claudel",
+                            "coordinates": {
+                                "lat": 48.719552,
+                                "lon": 2.231869
+                            }
+                        },
+                        {
+                            "id": "ParisStop_EnstaLesJoncherettes_W",
+                            "name": "Ensta - Les Joncherettes",
+                            "coordinates": {
+                                "lat": 48.710194,
+                                "lon": 2.218959
+                            }
+                        },
+                        {
+                            "id": "ParisStop_PolytechniqueLozere_NW_2",
+                            "name": "Polytechnique Lozère",
+                            "coordinates": {
+                                "lat": 48.709954,
+                                "lon": 2.209815
+                            }
+                        },
+                        {
+                            "id": "ParisStop_FermeDeLaVauve_N_3",
+                            "name": "Ferme de la Vauve",
+                            "coordinates": {
+                                "lat": 48.711618,
+                                "lon": 2.201594
+                            }
+                        }
+                    ],
+                    "updatable_detail": {
+                        "departures": [
+                            {
+                                "type": "frequency",
+                                "service_id": "STIFBus_Albatrans9106",
+                                "frequency_seconds_range": [
+                                    732,
+                                    732
+                                ],
+                                "time_status": "unknown"
+                            },
+                            {
+                                "type": "frequency",
+                                "service_id": "STIFBus_Albatrans9110",
+                                "frequency_seconds_range": [
+                                    732,
+                                    732
+                                ],
+                                "time_status": "unknown"
+                            }
+                        ],
+                        "live_departure_availability": "unknown",
+                        "statuses": [
+                            {
+                                "type": "no_issues",
+                                "service_ids": [
+                                    "STIFBus_Albatrans9106",
+                                    "STIFBus_Albatrans9110"
+                                ]
+                            }
+                        ],
+                        "leg_departure_time": "2022-02-27T17:39:00+01:00",
+                        "leg_arrival_time": "2022-02-27T17:49:00+01:00"
+                    },
+                    "vehicle_types": [
+                        "bus"
+                    ],
+                    "services": [
+                        {
+                            "id": "STIFBus_Albatrans9106",
+                            "name": "91-06",
+                            "vehicle_types": [
+                                "bus"
+                            ],
+                            "brand": {
+                                "id": "STIFBus_Albatrans",
+                                "name": "Bus Albatrans",
+                                "images": [
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/d97d11b98e1d4178335067f3948cb80ec1b98badab6d5aa6af62afbf/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/bb11377addd08ab5d2ba85a4f1ce6e8519db8ea681ab13490523a186/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/67e2c62aac64fc7ee9d19791f3d309874353a20323e7390c101f1c10/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/4fb5a26e2e7558278c069c0ce6f72b672054069ddbac96f2b4d951f4/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/8b4e44e1cdc30e49e8c21edb97e389be3a07b34f1c45cac0b3ef7de7/d324a6fb/@2x.png",
+                                        "width": 13,
+                                        "height": 16,
+                                        "ui_role": "vehicle_compact",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/83a375cedd40ff34d59ffc95791be1a130c712d0799ffb782b26eeef/d324a6fb/@2x.png",
+                                        "width": 24,
+                                        "height": 33,
+                                        "ui_role": "vehicle",
+                                        "is_generic": true
+                                    }
+                                ]
+                            },
+                            "color": "#1AC7FF",
+                            "background_color": "#1AC7FF",
+                            "text_color": "#FFFFFF"
+                        },
+                        {
+                            "id": "STIFBus_Albatrans9110",
+                            "name": "91-10",
+                            "vehicle_types": [
+                                "bus"
+                            ],
+                            "brand": {
+                                "id": "STIFBus_Albatrans",
+                                "name": "Bus Albatrans",
+                                "images": [
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/d97d11b98e1d4178335067f3948cb80ec1b98badab6d5aa6af62afbf/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/bb11377addd08ab5d2ba85a4f1ce6e8519db8ea681ab13490523a186/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/67e2c62aac64fc7ee9d19791f3d309874353a20323e7390c101f1c10/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/4fb5a26e2e7558278c069c0ce6f72b672054069ddbac96f2b4d951f4/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/8b4e44e1cdc30e49e8c21edb97e389be3a07b34f1c45cac0b3ef7de7/d324a6fb/@2x.png",
+                                        "width": 13,
+                                        "height": 16,
+                                        "ui_role": "vehicle_compact",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/83a375cedd40ff34d59ffc95791be1a130c712d0799ffb782b26eeef/d324a6fb/@2x.png",
+                                        "width": 24,
+                                        "height": 33,
+                                        "ui_role": "vehicle",
+                                        "is_generic": true
+                                    }
+                                ]
+                            },
+                            "color": "#1AC7FF",
+                            "background_color": "#1AC7FF",
+                            "text_color": "#000000"
+                        }
+                    ],
+                    "direction_description": "Christ de Saclay | Saint-Quentin - Gare Routière des Prés"
+                },
+                {
+                    "travel_mode": "walk",
+                    "duration_seconds": 203,
+                    "path": "s~hhH}~lL?DKAoAWCd@UEALOBc@jI",
+                    "updatable_detail": {
+                        "leg_departure_time": "2022-02-27T17:49:00+01:00",
+                        "leg_arrival_time": "2022-02-27T17:52:23+01:00"
+                    }
+                }
+            ],
+            "route_departure_time": "2022-02-27T16:39:25+01:00",
+            "route_arrival_time": "2022-02-27T17:52:23+01:00",
+            "signature": "v2.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjbTp0cmFuc2l0MSIsImlhdCI6MTY0NTk3NjM2NiwiZnJvbnRlbmRfc2lnbmF0dXJlIjoie1wiY2FyXCI6MjU1MjQsXCJkdXJhdGlvblwiOjM2MDgsXCJlbmRcIjp7XCJjb29yZHNcIjpcIjQ4LjcxMjkxMiwyLjE5OTg4OVwifSxcImpyX2luZGV4XCI6MixcImxlZ3NcIjpbe1wiZGlzdGFuY2VcIjo0MzgsXCJkdXJhdGlvblwiOjM0MixcImVjXCI6XCI0OC44NDk3MywyLjM0MjE2XCIsXCJtb2RlXCI6XCJ3YWxrXCIsXCJzY1wiOlwiNDguODQ4MTEsMi4zNDQwNlwifSx7XCJkdXJhdGlvblwiOjE4MCxcImVuZFwiOlwiUGFyaXNTdG9wX0x1eGVtYm91cmdfU18zXCIsXCJtb2RlXCI6XCJ0cmFuc2l0XCIsXCJyb3V0ZV9pZHNcIjpbXCJSQVRQQnVzMzhcIl0sXCJzdGFydFwiOlwiUGFyaXNTdG9wX0xlc19FY29sZXNXXzJcIixcInN0b3BfY291bnRcIjoyfSx7XCJkaXN0YW5jZVwiOjEwMixcImR1cmF0aW9uXCI6OTMsXCJlY1wiOlwiNDguODQ2NTEsMi4zNDA1M1wiLFwiaW5fc3RhdGlvblwiOlwiMC82MFwiLFwibW9kZVwiOlwid2Fsa1wiLFwic2NcIjpcIjQ4Ljg0NjM1LDIuMzQwMTNcIixcInRvX2V4aXRcIjpcIlBhcmlzU3RhdGlvbl9MdXhlbWJvdXJnX0UzMzc5XCJ9LHtcImR1cmF0aW9uXCI6MTI2MCxcImVuZFwiOlwiUGFyaXNTdGF0aW9uX01hc3N5X1BhbGFpc2VhdVwiLFwibW9kZVwiOlwidHJhbnNpdFwiLFwicm91dGVfaWRzXCI6W1wiUkVSQlwiXSxcInN0YXJ0XCI6XCJQYXJpc1N0YXRpb25fTHV4ZW1ib3VyZ1wiLFwic3RvcF9jb3VudFwiOjgsXCJzdG9wX2lkc1wiOltcIlBsYXRmb3JtX1BhcmlzTHV4ZW1ib3VyZ19SYl9kU1wiLFwiUGxhdGZvcm1fUGFyaXNNYXNzeVBhbGFpc2VhdV9SYl9kU1dcIl19LHtcImRpc3RhbmNlXCI6NTIzLFwiZHVyYXRpb25cIjoyOTQsXCJlY1wiOlwiNDguNzIzMzIsMi4yNThcIixcImZyb21fZXhpdFwiOlwiUGFyaXNTdGF0aW9uX01hc3N5X1BhbGFpc2VhdV9FM1wiLFwiaW5fc3RhdGlvblwiOlwiMi8xMzBcIixcIm1vZGVcIjpcIndhbGtcIixcInNjXCI6XCI0OC43MjQxMSwyLjI1OTI2XCJ9LHtcImR1cmF0aW9uXCI6NjAwLFwiZW5kXCI6XCJQYXJpc1N0b3BfRmVybWVEZUxhVmF1dmVfTl8zXCIsXCJtb2RlXCI6XCJ0cmFuc2l0XCIsXCJyb3V0ZV9pZHNcIjpbXCJTVElGQnVzX0FsYmF0cmFuczkxMDZcIixcIlNUSUZCdXNfQWxiYXRyYW5zOTExMFwiXSxcInN0YXJ0XCI6XCJQYXJpc1N0b3BfR2FyZU1hc3N5UGFsYWlzZWF1X1dcIixcInN0b3BfY291bnRcIjo3fSx7XCJkaXN0YW5jZVwiOjIxOCxcImR1cmF0aW9uXCI6MjAzLFwiZWNcIjpcIjQ4LjcxMjQ4LDIuMTk5NzhcIixcIm1vZGVcIjpcIndhbGtcIixcInNjXCI6XCI0OC43MTE2MiwyLjIwMTU5XCJ9XSxcInByaWNlX3BlbmNlXCI6NTU1LFwicmVnaW9uXCI6XCJmci1wYXJpc1wiLFwicm91dGluZ19yZXF1ZXN0X2lkXCI6XCIwNmE2OTk5YS03MjgxLTRjZDAtOTdhOS1iMTlhNjMyY2UwZDFcIixcInN0YXJ0XCI6e1wiY29vcmRzXCI6XCI0OC44NDgwNzQsMi4zNDQxOTNcIn0sXCJ0aW1lXCI6XCIyMDIyLTAyLTI3VDE2OjM5OjI1KzAxOjAwL05PV0lTSFwiLFwidmVyc2lvblwiOjJ9IiwicmVnaW9uX2lkIjoiZnItcGFyaXMifQ.ATpxe_yP3Wl-lbclZgSAkltX694R0VEVu3nIGEErR-c"
+        },
+        {
+            "start": {
+                "coordinates": {
+                    "lat": 48.848074,
+                    "lon": 2.344193
+                }
+            },
+            "end": {
+                "coordinates": {
+                    "lat": 48.712912,
+                    "lon": 2.199889
+                }
+            },
+            "duration_seconds": 4172,
+            "duration_accuracy": "scheduled",
+            "price": {
+                "formatted": "4.50€",
+                "amount": "4.50",
+                "currency": "EUR"
+            },
+            "legs": [
+                {
+                    "travel_mode": "walk",
+                    "duration_seconds": 422,
+                    "path": "usciHkyhMFBhBv@VLHDLFfAb@FDRHCXQnAE^G`@SzACNCPQvAKr@M~@pAl@\\NGb@",
+                    "updatable_detail": {
+                        "leg_departure_time": "2022-02-27T16:39:25+01:00",
+                        "leg_arrival_time": "2022-02-27T16:46:27+01:00"
+                    },
+                    "station_walk_type": "enter_station",
+                    "walk_details_enter_station": {
+                        "recommended_exit": {
+                            "id": "ParisStation_Luxembourg_E3380",
+                            "stop_id": "ParisStation_Luxembourg",
+                            "coordinates": {
+                                "lat": 48.8468196,
+                                "lon": 2.340359
+                            },
+                            "name": "Place Edmond Rostand",
+                            "short_name": "1"
+                        },
+                        "alternate_exits": [
+                            {
+                                "id": "ParisStation_Luxembourg_E25271",
+                                "stop_id": "ParisStation_Luxembourg",
+                                "coordinates": {
+                                    "lat": 48.844306,
+                                    "lon": 2.339085
+                                },
+                                "name": "rue Auguste Comte",
+                                "short_name": "4"
+                            },
+                            {
+                                "id": "ParisStation_Luxembourg_E3377",
+                                "stop_id": "ParisStation_Luxembourg",
+                                "coordinates": {
+                                    "lat": 48.844291,
+                                    "lon": 2.3393237
+                                },
+                                "name": "rue de l'Abbé de l'Épée",
+                                "short_name": "3"
+                            },
+                            {
+                                "id": "ParisStation_Luxembourg_E3379",
+                                "stop_id": "ParisStation_Luxembourg",
+                                "coordinates": {
+                                    "lat": 48.8465045,
+                                    "lon": 2.3405253
+                                },
+                                "name": "rue Gay Lussac",
+                                "short_name": "2"
+                            }
+                        ],
+                        "duration_seconds": 60
+                    }
+                },
+                {
+                    "travel_mode": "transit",
+                    "duration_seconds": 1860,
+                    "path": "ylciHochMBMFDd]fOpI~CnARvCf@b@@d@VhA|@`RxQpBdB`A^x@GfAGhKiCfA]t@a@`Aw@tDmEf@a@~@i@dA[rAm@tMuCxAObDs@`FwAlCo@fBq@vEuCbA_@x@OzAEbAC~ASzXgI`B]~AM`AD`ANjBn@~@f@lA`AhBhBjAvAvFlIjFrIzJ|NlDlEtFbItCtCfBvA|@d@|@\\xAXhRjBpS~BnBf@dAb@fBhAr@p@lAtAn@bAf@dAv@xBl@fCd@rCZhDHbBRtINzBXzBXrA\\fAr@~Ab@t@h@r@jA`AdHzDrMbIbB~@vFvCpH`D~@\\tAZz@HjA?`BOzDk@~@G~ADvATp@VTHdTzJ~CfAzAZjAPr@DfBCpCO~Fq@nAI`BAhBDjAL~B\\jAXfA\\dBr@rC~AdAt@`UbRfEnCjD`B??~e@~QhExA~CdAzBn@fDt@hd@pGlBd@hBn@hB~@vA~@rBfBv@x@fBvBxBlDdBtDl@bBl@jBtP~q@f@fB~AvEpDrIr@`C^dBNjAf@jFRvAd@bCfCfK~F`W\\pA~BbHj@zAZr@bAbBh@n@l@h@jF~DlAvAzMlSjDzEdHhLxIrL|@lA`D|D`GzGh@x@j@lA`@jA\\xATzALvAb@jKZ~CTnAZhA`@hAh@fA~F`JtAfBpArAxArAvB~AlHrFpBfBxA`BdAtAtEjHz@lAz@|@hFlE|@|@dD|DjAhArA`AfAh@fA^tA^dEhAfAd@x@j@n@l@l@x@n@fAf@rA\\nAVvARdBNzBF~B?tBGvB{Ad_@E`BDfDf@bJDzA?`BCfB_@tJEbC@`C\\~KBnBA`BIdBSnB_AjHQdB??InBEhB@tB`@hJDxBFxpADvBJfBP~AT|ARx@BC",
+                    "stops": [
+                        {
+                            "id": "ParisStation_Luxembourg",
+                            "name": "Luxembourg",
+                            "coordinates": {
+                                "lat": 48.846185,
+                                "lon": 2.340241
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Port_Royal",
+                            "name": "Port-Royal",
+                            "coordinates": {
+                                "lat": 48.839915,
+                                "lon": 2.337114
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Denfert_Rochereau_RATPMetro",
+                            "name": "Denfert-Rochereau",
+                            "coordinates": {
+                                "lat": 48.833997,
+                                "lon": 2.332532
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Cite_Universitaire_RER",
+                            "name": "Cité Universitaire",
+                            "coordinates": {
+                                "lat": 48.820654,
+                                "lon": 2.339007
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Bourg_la_Reine",
+                            "name": "Bourg-la-Reine",
+                            "coordinates": {
+                                "lat": 48.780284,
+                                "lon": 2.312464
+                            }
+                        },
+                        {
+                            "id": "ParisStation_La_Croix_de_Berny",
+                            "name": "La Croix de Berny",
+                            "coordinates": {
+                                "lat": 48.762315,
+                                "lon": 2.304604
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Antony_sncf_rer",
+                            "name": "Antony",
+                            "coordinates": {
+                                "lat": 48.754904,
+                                "lon": 2.301003
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Massy_Palaiseau",
+                            "name": "Massy - Palaiseau",
+                            "coordinates": {
+                                "lat": 48.724746,
+                                "lon": 2.257196
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Palaiseau",
+                            "name": "Palaiseau",
+                            "coordinates": {
+                                "lat": 48.716946,
+                                "lon": 2.245673
+                            }
+                        },
+                        {
+                            "id": "ParisStation_PalaiseauVillebon",
+                            "name": "Palaiseau - Villebon",
+                            "coordinates": {
+                                "lat": 48.707695,
+                                "lon": 2.237205
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Lozere",
+                            "name": "Lozère",
+                            "coordinates": {
+                                "lat": 48.705969,
+                                "lon": 2.212262
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Le_Guichet",
+                            "name": "Le Guichet",
+                            "coordinates": {
+                                "lat": 48.705404,
+                                "lon": 2.192735
+                            }
+                        }
+                    ],
+                    "updatable_detail": {
+                        "departures": [
+                            {
+                                "type": "scheduled",
+                                "service_id": "RERB",
+                                "headsign": "Saint-Rémy-Lès-Chevreuse",
+                                "short_name": "PIRE",
+                                "scheduled_time": "2022-02-27T16:57:00+01:00",
+                                "time_status": "unknown"
+                            }
+                        ],
+                        "live_departure_availability": "unknown",
+                        "statuses": [
+                            {
+                                "type": "no_issues",
+                                "service_ids": [
+                                    "RERB"
+                                ]
+                            }
+                        ],
+                        "leg_departure_time": "2022-02-27T16:57:00+01:00",
+                        "leg_arrival_time": "2022-02-27T17:28:00+01:00"
+                    },
+                    "vehicle_types": [
+                        "rail"
+                    ],
+                    "services": [
+                        {
+                            "id": "RERB",
+                            "name": "RER B",
+                            "vehicle_types": [
+                                "rail"
+                            ],
+                            "brand": {
+                                "id": "RER",
+                                "name": "RER",
+                                "images": [
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/0efa8df0938a92bf11ed1b4437b995eb92654062f352a0168591b83a/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/b3306f2538a7c7c0ecb6d405c70f445ee84274d4d5af90bdcc391af6/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/060744902754d47a6c1cd8f50dcb771dbab6b0b6aaed508271f534c5/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/027b9a09a3dc4e8fdb8f0ac13a4ab9b4be358795f46afcc6dca29689/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/5562ddee195aac1d10c76950ce44ef5b80ca93141c96b23e9c6745ea/d324a6fb/@2x.png",
+                                        "width": 13,
+                                        "height": 16,
+                                        "ui_role": "vehicle_compact",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/973833a27d4c0799db032ea169c7e05c526b30f4858bd41259b39ce4/d324a6fb/@2x.png",
+                                        "width": 24,
+                                        "height": 33,
+                                        "ui_role": "vehicle",
+                                        "is_generic": true
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "url": "https://d3440lt1d9mf95.cloudfront.net/925ecd8d28467b227bc95082c0c9b15760000706401d0590d9c3f584/d324a6fb/@2x.png",
+                                    "width": 24,
+                                    "height": 24,
+                                    "ui_role": "service",
+                                    "replaces_name": true
+                                },
+                                {
+                                    "url": "https://d3440lt1d9mf95.cloudfront.net/3fd8ee2c087fea4999225c212542eb319b34029e314092890228388e/d324a6fb/@2x.png",
+                                    "width": 16,
+                                    "height": 16,
+                                    "ui_role": "service",
+                                    "replaces_name": true
+                                }
+                            ],
+                            "color": "#427DBD",
+                            "background_color": "#427DBD",
+                            "text_color": "#FFFFFF"
+                        }
+                    ],
+                    "best_boarding_sections": {
+                        "front": false,
+                        "middle": false,
+                        "back": true
+                    }
+                },
+                {
+                    "travel_mode": "walk",
+                    "duration_seconds": 1590,
+                    "path": "myghHsskLs@@A{A?I?MIFA?QBs@GQAw@GOA{EGICCAEBgAAq@AIECYG_@Ic@]wBOy@Ku@Do@Ak@AKCSAO]uAu@b@A?OHaAb@UHO@i@AKAm@Bi@\\MIKOKYGEQO]{ATuQGAWIAQ]\\QEKAEHuAUUEOBc@jI",
+                    "updatable_detail": {
+                        "leg_departure_time": "2022-02-27T17:28:00+01:00",
+                        "leg_arrival_time": "2022-02-27T17:54:30+01:00"
+                    },
+                    "station_walk_type": "exit_station",
+                    "walk_details_exit_station": {
+                        "recommended_exit": {
+                            "id": "ParisStation_Le_Guichet_E24501",
+                            "stop_id": "ParisStation_Le_Guichet",
+                            "coordinates": {
+                                "lat": 48.705674,
+                                "lon": 2.1946581
+                            },
+                            "name": "rue du Pont de Pierre",
+                            "short_name": "3"
+                        },
+                        "alternate_exits": [
+                            {
+                                "id": "ParisStation_Le_Guichet_E24462",
+                                "stop_id": "ParisStation_Le_Guichet",
+                                "coordinates": {
+                                    "lat": 48.7050811,
+                                    "lon": 2.19177
+                                },
+                                "name": "rue de Versailles",
+                                "short_name": "2"
+                            },
+                            {
+                                "id": "ParisStation_Le_Guichet_E24500",
+                                "stop_id": "ParisStation_Le_Guichet",
+                                "coordinates": {
+                                    "lat": 48.7048491,
+                                    "lon": 2.1917184
+                                },
+                                "name": "rue Charles de Gaulle",
+                                "short_name": "1"
+                            }
+                        ],
+                        "duration_seconds": 90
+                    }
+                }
+            ],
+            "route_departure_time": "2022-02-27T16:39:25+01:00",
+            "route_arrival_time": "2022-02-27T17:54:30+01:00",
+            "signature": "v2.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjbTp0cmFuc2l0MSIsImlhdCI6MTY0NTk3NjM2NiwiZnJvbnRlbmRfc2lnbmF0dXJlIjoie1wiY2FyXCI6MjU1MjQsXCJkdXJhdGlvblwiOjQxNzIsXCJlbmRcIjp7XCJjb29yZHNcIjpcIjQ4LjcxMjkxMiwyLjE5OTg4OVwifSxcImpyX2luZGV4XCI6MyxcImxlZ3NcIjpbe1wiZGlzdGFuY2VcIjo0NTMsXCJkdXJhdGlvblwiOjQyMixcImVjXCI6XCI0OC44NDY4MiwyLjM0MDM2XCIsXCJpbl9zdGF0aW9uXCI6XCIwLzYwXCIsXCJtb2RlXCI6XCJ3YWxrXCIsXCJzY1wiOlwiNDguODQ4MTEsMi4zNDQwNlwiLFwidG9fZXhpdFwiOlwiUGFyaXNTdGF0aW9uX0x1eGVtYm91cmdfRTMzODBcIn0se1wiZHVyYXRpb25cIjoxODYwLFwiZW5kXCI6XCJQYXJpc1N0YXRpb25fTGVfR3VpY2hldFwiLFwibW9kZVwiOlwidHJhbnNpdFwiLFwicm91dGVfaWRzXCI6W1wiUkVSQlwiXSxcInN0YXJ0XCI6XCJQYXJpc1N0YXRpb25fTHV4ZW1ib3VyZ1wiLFwic3RvcF9jb3VudFwiOjEyLFwic3RvcF9pZHNcIjpbXCJQbGF0Zm9ybV9QYXJpc0x1eGVtYm91cmdfUmJfZFNcIixcIlBsYXRmb3JtX1BhcmlzTGVHdWljaGV0X1JiX2RTV1wiXX0se1wiZGlzdGFuY2VcIjoxNDg2LFwiZHVyYXRpb25cIjoxNTkwLFwiZWNcIjpcIjQ4LjcxMjQ4LDIuMTk5NzhcIixcImZyb21fZXhpdFwiOlwiUGFyaXNTdGF0aW9uX0xlX0d1aWNoZXRfRTI0NTAxXCIsXCJpbl9zdGF0aW9uXCI6XCIyLzkwXCIsXCJtb2RlXCI6XCJ3YWxrXCIsXCJzY1wiOlwiNDguNzA1NjcsMi4xOTQ2NlwifV0sXCJwcmljZV9wZW5jZVwiOjQ1MCxcInJlZ2lvblwiOlwiZnItcGFyaXNcIixcInJvdXRpbmdfcmVxdWVzdF9pZFwiOlwiMDZhNjk5OWEtNzI4MS00Y2QwLTk3YTktYjE5YTYzMmNlMGQxXCIsXCJzdGFydFwiOntcImNvb3Jkc1wiOlwiNDguODQ4MDc0LDIuMzQ0MTkzXCJ9LFwidGltZVwiOlwiMjAyMi0wMi0yN1QxNjozOToyNSswMTowMC9OT1dJU0hcIixcInZlcnNpb25cIjoyfSIsInJlZ2lvbl9pZCI6ImZyLXBhcmlzIn0.KLtgNMrYnf_mvzfXRVhZOO03sBsDriEE-tKkCwxHjjM"
+        },
+        {
+            "start": {
+                "coordinates": {
+                    "lat": 48.848074,
+                    "lon": 2.344193
+                }
+            },
+            "end": {
+                "coordinates": {
+                    "lat": 48.712912,
+                    "lon": 2.199889
+                }
+            },
+            "duration_seconds": 5199,
+            "duration_accuracy": "scheduled",
+            "legs": [
+                {
+                    "travel_mode": "walk",
+                    "duration_seconds": 422,
+                    "path": "usciHkyhMFBhBv@VLHDLFfAb@FDRHCXQnAE^G`@SzACNCPQvAKr@M~@pAl@\\NGb@",
+                    "updatable_detail": {
+                        "leg_departure_time": "2022-02-27T16:39:25+01:00",
+                        "leg_arrival_time": "2022-02-27T16:46:27+01:00"
+                    },
+                    "station_walk_type": "enter_station",
+                    "walk_details_enter_station": {
+                        "recommended_exit": {
+                            "id": "ParisStation_Luxembourg_E3380",
+                            "stop_id": "ParisStation_Luxembourg",
+                            "coordinates": {
+                                "lat": 48.8468196,
+                                "lon": 2.340359
+                            },
+                            "name": "Place Edmond Rostand",
+                            "short_name": "1"
+                        },
+                        "alternate_exits": [
+                            {
+                                "id": "ParisStation_Luxembourg_E25271",
+                                "stop_id": "ParisStation_Luxembourg",
+                                "coordinates": {
+                                    "lat": 48.844306,
+                                    "lon": 2.339085
+                                },
+                                "name": "rue Auguste Comte",
+                                "short_name": "4"
+                            },
+                            {
+                                "id": "ParisStation_Luxembourg_E3377",
+                                "stop_id": "ParisStation_Luxembourg",
+                                "coordinates": {
+                                    "lat": 48.844291,
+                                    "lon": 2.3393237
+                                },
+                                "name": "rue de l'Abbé de l'Épée",
+                                "short_name": "3"
+                            },
+                            {
+                                "id": "ParisStation_Luxembourg_E3379",
+                                "stop_id": "ParisStation_Luxembourg",
+                                "coordinates": {
+                                    "lat": 48.8465045,
+                                    "lon": 2.3405253
+                                },
+                                "name": "rue Gay Lussac",
+                                "short_name": "2"
+                            }
+                        ],
+                        "duration_seconds": 60
+                    }
+                },
+                {
+                    "travel_mode": "transit",
+                    "duration_seconds": 1560,
+                    "path": "ylciHochMBMFDd]fOpI~CnARvCf@b@@d@VhA|@`RxQpBdB`A^x@GfAGhKiCfA]t@a@`Aw@tDmEf@a@~@i@dA[rAm@tMuCxAObDs@`FwAlCo@fBq@vEuCbA_@x@OzAEbAC~ASzXgIzA[DA~AM`AD`ANjBn@~@f@lA`AhBhBjAvAvFlIjFrI|EjH|CpElDlEtFbItCtCfBvA|@d@|@\\xAXhRjBdFl@jLpAnBf@dAb@fBhAr@p@lAtAn@bAf@dAv@xBl@fCd@rCZhDH`B?@RtINzBXzBXrA\\fAr@~Ab@t@h@r@jA`AdHzDrMbIbB~@vFvCpH`D~@\\tAZz@HjA?`BOzDk@~@G~ADvATp@VTHdTzJ~CfAzAZjAPr@DfBCpCO~Fq@nAI`BAhBDt@HTB~B\\jAXfA\\dBr@rC~AdAt@`UbRfEnCjD`B??~e@~QhExA~CdAzBn@fDt@hd@pGlBd@hBn@hB~@vA~@rBfBv@x@LNxAfBxBlDdBtDl@bBl@jBjLpe@hClKf@fB~AvEpDrIr@`C^dBNjAf@jFRvAd@bCfCfKbEjQWP",
+                    "stops": [
+                        {
+                            "id": "ParisStation_Luxembourg",
+                            "name": "Luxembourg",
+                            "coordinates": {
+                                "lat": 48.846185,
+                                "lon": 2.340241
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Port_Royal",
+                            "name": "Port-Royal",
+                            "coordinates": {
+                                "lat": 48.839915,
+                                "lon": 2.337114
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Denfert_Rochereau_RATPMetro",
+                            "name": "Denfert-Rochereau",
+                            "coordinates": {
+                                "lat": 48.833997,
+                                "lon": 2.332532
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Cite_Universitaire_RER",
+                            "name": "Cité Universitaire",
+                            "coordinates": {
+                                "lat": 48.820654,
+                                "lon": 2.339007
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Gentilly",
+                            "name": "Gentilly",
+                            "coordinates": {
+                                "lat": 48.815334,
+                                "lon": 2.340768
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Laplace",
+                            "name": "Laplace",
+                            "coordinates": {
+                                "lat": 48.808297,
+                                "lon": 2.334354
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Arcueil_Cachan",
+                            "name": "Arcueil - Cachan",
+                            "coordinates": {
+                                "lat": 48.798892,
+                                "lon": 2.328137
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Bagneux",
+                            "name": "Bagneux",
+                            "coordinates": {
+                                "lat": 48.793336,
+                                "lon": 2.322202
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Bourg_la_Reine",
+                            "name": "Bourg-la-Reine",
+                            "coordinates": {
+                                "lat": 48.780284,
+                                "lon": 2.312464
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Parc_de_Sceaux",
+                            "name": "Parc de Sceaux",
+                            "coordinates": {
+                                "lat": 48.770679,
+                                "lon": 2.310196
+                            }
+                        },
+                        {
+                            "id": "ParisStation_La_Croix_de_Berny",
+                            "name": "La Croix de Berny",
+                            "coordinates": {
+                                "lat": 48.762315,
+                                "lon": 2.304604
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Antony_sncf_rer",
+                            "name": "Antony",
+                            "coordinates": {
+                                "lat": 48.754904,
+                                "lon": 2.301003
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Fontaine_Michalon",
+                            "name": "Fontaine Michalon",
+                            "coordinates": {
+                                "lat": 48.743459,
+                                "lon": 2.296541
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Les_Baconnets",
+                            "name": "Les Baconnets",
+                            "coordinates": {
+                                "lat": 48.739533,
+                                "lon": 2.287277
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Massy_Verrieres",
+                            "name": "Massy - Verrières",
+                            "coordinates": {
+                                "lat": 48.734402,
+                                "lon": 2.273644
+                            }
+                        }
+                    ],
+                    "updatable_detail": {
+                        "departures": [
+                            {
+                                "type": "scheduled",
+                                "service_id": "RERB",
+                                "headsign": "Massy - Palaiseau",
+                                "short_name": "KALE",
+                                "scheduled_time": "2022-02-27T17:00:00+01:00",
+                                "time_status": "unknown"
+                            }
+                        ],
+                        "live_departure_availability": "unknown",
+                        "statuses": [
+                            {
+                                "type": "no_issues",
+                                "service_ids": [
+                                    "RERB"
+                                ]
+                            }
+                        ],
+                        "leg_departure_time": "2022-02-27T17:00:00+01:00",
+                        "leg_arrival_time": "2022-02-27T17:26:00+01:00"
+                    },
+                    "vehicle_types": [
+                        "rail"
+                    ],
+                    "services": [
+                        {
+                            "id": "RERB",
+                            "name": "RER B",
+                            "vehicle_types": [
+                                "rail"
+                            ],
+                            "brand": {
+                                "id": "RER",
+                                "name": "RER",
+                                "images": [
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/0efa8df0938a92bf11ed1b4437b995eb92654062f352a0168591b83a/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/b3306f2538a7c7c0ecb6d405c70f445ee84274d4d5af90bdcc391af6/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/060744902754d47a6c1cd8f50dcb771dbab6b0b6aaed508271f534c5/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/027b9a09a3dc4e8fdb8f0ac13a4ab9b4be358795f46afcc6dca29689/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/5562ddee195aac1d10c76950ce44ef5b80ca93141c96b23e9c6745ea/d324a6fb/@2x.png",
+                                        "width": 13,
+                                        "height": 16,
+                                        "ui_role": "vehicle_compact",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/973833a27d4c0799db032ea169c7e05c526b30f4858bd41259b39ce4/d324a6fb/@2x.png",
+                                        "width": 24,
+                                        "height": 33,
+                                        "ui_role": "vehicle",
+                                        "is_generic": true
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "url": "https://d3440lt1d9mf95.cloudfront.net/925ecd8d28467b227bc95082c0c9b15760000706401d0590d9c3f584/d324a6fb/@2x.png",
+                                    "width": 24,
+                                    "height": 24,
+                                    "ui_role": "service",
+                                    "replaces_name": true
+                                },
+                                {
+                                    "url": "https://d3440lt1d9mf95.cloudfront.net/3fd8ee2c087fea4999225c212542eb319b34029e314092890228388e/d324a6fb/@2x.png",
+                                    "width": 16,
+                                    "height": 16,
+                                    "ui_role": "service",
+                                    "replaces_name": true
+                                }
+                            ],
+                            "color": "#427DBD",
+                            "background_color": "#427DBD",
+                            "text_color": "#FFFFFF"
+                        }
+                    ],
+                    "best_boarding_sections": {
+                        "front": false,
+                        "middle": true,
+                        "back": false
+                    }
+                },
+                {
+                    "travel_mode": "walk",
+                    "duration_seconds": 60,
+                    "path": "komhHe~zL??????",
+                    "updatable_detail": {
+                        "leg_departure_time": "2022-02-27T17:26:00+01:00",
+                        "leg_arrival_time": "2022-02-27T17:27:00+01:00"
+                    },
+                    "station_walk_type": "change_platform"
+                },
+                {
+                    "travel_mode": "transit",
+                    "duration_seconds": 210,
+                    "path": "komhHe~zL@Al@lCdD~JbBxG`AbCtGhKbCvE~AhD`A~BjAzDdAdCv@nAhDlE`TjXUj@",
+                    "stops": [
+                        {
+                            "id": "ParisStation_Massy_Verrieres",
+                            "name": "Massy - Verrières",
+                            "coordinates": {
+                                "lat": 48.734402,
+                                "lon": 2.273644
+                            }
+                        },
+                        {
+                            "id": "ParisStation_Massy_Palaiseau",
+                            "name": "Massy - Palaiseau",
+                            "coordinates": {
+                                "lat": 48.724746,
+                                "lon": 2.257196
+                            }
+                        }
+                    ],
+                    "updatable_detail": {
+                        "departures": [
+                            {
+                                "type": "scheduled",
+                                "service_id": "RERC",
+                                "headsign": "Massy - Palaiseau",
+                                "short_name": "MONA",
+                                "scheduled_time": "2022-02-27T17:47:20+01:00",
+                                "time_status": "unknown"
+                            }
+                        ],
+                        "live_departure_availability": "unknown",
+                        "statuses": [
+                            {
+                                "type": "no_issues",
+                                "service_ids": [
+                                    "RERC"
+                                ]
+                            }
+                        ],
+                        "leg_departure_time": "2022-02-27T17:47:20+01:00",
+                        "leg_arrival_time": "2022-02-27T17:50:50+01:00"
+                    },
+                    "vehicle_types": [
+                        "rail"
+                    ],
+                    "services": [
+                        {
+                            "id": "RERC",
+                            "name": "RER C",
+                            "vehicle_types": [
+                                "rail"
+                            ],
+                            "brand": {
+                                "id": "RER",
+                                "name": "RER",
+                                "images": [
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/0efa8df0938a92bf11ed1b4437b995eb92654062f352a0168591b83a/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/b3306f2538a7c7c0ecb6d405c70f445ee84274d4d5af90bdcc391af6/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/060744902754d47a6c1cd8f50dcb771dbab6b0b6aaed508271f534c5/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/027b9a09a3dc4e8fdb8f0ac13a4ab9b4be358795f46afcc6dca29689/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/5562ddee195aac1d10c76950ce44ef5b80ca93141c96b23e9c6745ea/d324a6fb/@2x.png",
+                                        "width": 13,
+                                        "height": 16,
+                                        "ui_role": "vehicle_compact",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/973833a27d4c0799db032ea169c7e05c526b30f4858bd41259b39ce4/d324a6fb/@2x.png",
+                                        "width": 24,
+                                        "height": 33,
+                                        "ui_role": "vehicle",
+                                        "is_generic": true
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "url": "https://d3440lt1d9mf95.cloudfront.net/e8a33d0f41d3be689e1894971cb5d5b4e9233006a98dbf64579c372e/d324a6fb/@2x.png",
+                                    "width": 24,
+                                    "height": 24,
+                                    "ui_role": "service",
+                                    "replaces_name": true
+                                },
+                                {
+                                    "url": "https://d3440lt1d9mf95.cloudfront.net/aa25ac30bed83130691f25c5364002b1ba7811d40b0f2607dbc1d85d/d324a6fb/@2x.png",
+                                    "width": 16,
+                                    "height": 16,
+                                    "ui_role": "service",
+                                    "replaces_name": true
+                                }
+                            ],
+                            "color": "#E8CE10",
+                            "background_color": "#E8CE10",
+                            "text_color": "#FFFFFF"
+                        }
+                    ],
+                    "best_boarding_sections": {
+                        "front": false,
+                        "middle": false,
+                        "back": true
+                    }
+                },
+                {
+                    "travel_mode": "walk",
+                    "duration_seconds": 404,
+                    "path": "ulkhHkgxLd@cATXDHDDBFPRPNATAFDDFDFBHFFBHFFB@@H|@HJ@B@DDD?J?V@Ni@R",
+                    "updatable_detail": {
+                        "leg_departure_time": "2022-02-27T17:50:50+01:00",
+                        "leg_arrival_time": "2022-02-27T17:57:34+01:00"
+                    },
+                    "station_walk_type": "exit_station",
+                    "walk_details_exit_station": {
+                        "recommended_exit": {
+                            "id": "ParisStation_Massy_Palaiseau_E3",
+                            "stop_id": "ParisStation_Massy_Palaiseau",
+                            "coordinates": {
+                                "lat": 48.7241051,
+                                "lon": 2.2592547
+                            },
+                            "name": "avenue Ramolfo Garnier",
+                            "short_name": "3"
+                        },
+                        "alternate_exits": [
+                            {
+                                "id": "ParisStation_Massy_Palaiseau_E1",
+                                "stop_id": "ParisStation_Massy_Palaiseau",
+                                "coordinates": {
+                                    "lat": 48.7248516,
+                                    "lon": 2.26046
+                                },
+                                "name": "Massy Atlantis",
+                                "short_name": "1"
+                            },
+                            {
+                                "id": "ParisStation_Massy_Palaiseau_E2",
+                                "stop_id": "ParisStation_Massy_Palaiseau",
+                                "coordinates": {
+                                    "lat": 48.7264211,
+                                    "lon": 2.2575282
+                                },
+                                "name": "Massy Vilmorin",
+                                "short_name": "2"
+                            },
+                            {
+                                "id": "ParisStation_Massy_Palaiseau_E4",
+                                "stop_id": "ParisStation_Massy_Palaiseau",
+                                "coordinates": {
+                                    "lat": 48.7248725,
+                                    "lon": 2.256561
+                                },
+                                "name": "place Pierre Sémard"
+                            }
+                        ],
+                        "duration_seconds": 240
+                    }
+                },
+                {
+                    "travel_mode": "transit",
+                    "duration_seconds": 660,
+                    "path": "wgkhHo_xLJBx@vAhInKnAbApCnAf@l@Db@Ch@[~@oCbGaAtFi@nFU~@aBbE{C|HoB~DyBnI_@jBo@bGC`HA|Cb@xFLt@\\z@r@~EbD~JvDtKf@hAr@r@fKvE|CtATBNf@^PJC?f@Q`DYnQeAbYId@Jn@l@vAbApEr@`JLp@Zl@`@ZlATrB`CEr@\\t@f@@Xg@Bq@Og@Bo@pAaDbCmE|AkBrCkBpCs@xCBbExA|BzBtBhETzAV|AExPv@bWCnHEBDCBoHw@wXH_NY{CqAqDmBsCeBsAgC_AqCQuCd@iCpAqAnA{B`DuCtGa@Zc@PoBiCiCmFq@eC_DcO@aATaJUq@g@WsAOe@PYd@C`@h@lLLlEJvL`@~BlA|ELvCw@jh@{@lK_ExTy@xDMb@N`@L?bAxAZRnt@jLDe@?E",
+                    "stops": [
+                        {
+                            "id": "ParisStop_GareMassyPalaiseau_W",
+                            "name": "Massy - Palaiseau RER",
+                            "coordinates": {
+                                "lat": 48.723324,
+                                "lon": 2.257997
+                            }
+                        },
+                        {
+                            "id": "ParisStop_PalaiseauVille_NW",
+                            "name": "Palaiseau Ville",
+                            "coordinates": {
+                                "lat": 48.72199,
+                                "lon": 2.24884
+                            }
+                        },
+                        {
+                            "id": "ParisStop_LaVallee_SW",
+                            "name": "La Vallée",
+                            "coordinates": {
+                                "lat": 48.724406,
+                                "lon": 2.241314
+                            }
+                        },
+                        {
+                            "id": "ParisStop_CamilleClaudel_W",
+                            "name": "Camille Claudel",
+                            "coordinates": {
+                                "lat": 48.719552,
+                                "lon": 2.231869
+                            }
+                        },
+                        {
+                            "id": "ParisStop_EnstaLesJoncherettes_W",
+                            "name": "Ensta - Les Joncherettes",
+                            "coordinates": {
+                                "lat": 48.710194,
+                                "lon": 2.218959
+                            }
+                        },
+                        {
+                            "id": "ParisStop_PolytechniqueLozere_NW_2",
+                            "name": "Polytechnique Lozère",
+                            "coordinates": {
+                                "lat": 48.709954,
+                                "lon": 2.209815
+                            }
+                        },
+                        {
+                            "id": "ParisStop_FermeDeLaVauve_N_3",
+                            "name": "Ferme de la Vauve",
+                            "coordinates": {
+                                "lat": 48.711618,
+                                "lon": 2.201594
+                            }
+                        }
+                    ],
+                    "updatable_detail": {
+                        "departures": [
+                            {
+                                "type": "frequency",
+                                "service_id": "STIFBus_Albatrans9106",
+                                "frequency_seconds_range": [
+                                    960,
+                                    960
+                                ],
+                                "time_status": "unknown"
+                            },
+                            {
+                                "type": "frequency",
+                                "service_id": "STIFBus_Albatrans9110",
+                                "frequency_seconds_range": [
+                                    960,
+                                    960
+                                ],
+                                "time_status": "unknown"
+                            }
+                        ],
+                        "live_departure_availability": "unknown",
+                        "statuses": [
+                            {
+                                "type": "no_issues",
+                                "service_ids": [
+                                    "STIFBus_Albatrans9106",
+                                    "STIFBus_Albatrans9110"
+                                ]
+                            }
+                        ],
+                        "leg_departure_time": "2022-02-27T18:00:00+01:00",
+                        "leg_arrival_time": "2022-02-27T18:11:00+01:00"
+                    },
+                    "vehicle_types": [
+                        "bus"
+                    ],
+                    "services": [
+                        {
+                            "id": "STIFBus_Albatrans9106",
+                            "name": "91-06",
+                            "vehicle_types": [
+                                "bus"
+                            ],
+                            "brand": {
+                                "id": "STIFBus_Albatrans",
+                                "name": "Bus Albatrans",
+                                "images": [
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/d97d11b98e1d4178335067f3948cb80ec1b98badab6d5aa6af62afbf/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/bb11377addd08ab5d2ba85a4f1ce6e8519db8ea681ab13490523a186/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/67e2c62aac64fc7ee9d19791f3d309874353a20323e7390c101f1c10/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/4fb5a26e2e7558278c069c0ce6f72b672054069ddbac96f2b4d951f4/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/8b4e44e1cdc30e49e8c21edb97e389be3a07b34f1c45cac0b3ef7de7/d324a6fb/@2x.png",
+                                        "width": 13,
+                                        "height": 16,
+                                        "ui_role": "vehicle_compact",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/83a375cedd40ff34d59ffc95791be1a130c712d0799ffb782b26eeef/d324a6fb/@2x.png",
+                                        "width": 24,
+                                        "height": 33,
+                                        "ui_role": "vehicle",
+                                        "is_generic": true
+                                    }
+                                ]
+                            },
+                            "color": "#1AC7FF",
+                            "background_color": "#1AC7FF",
+                            "text_color": "#FFFFFF"
+                        },
+                        {
+                            "id": "STIFBus_Albatrans9110",
+                            "name": "91-10",
+                            "vehicle_types": [
+                                "bus"
+                            ],
+                            "brand": {
+                                "id": "STIFBus_Albatrans",
+                                "name": "Bus Albatrans",
+                                "images": [
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/d97d11b98e1d4178335067f3948cb80ec1b98badab6d5aa6af62afbf/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/bb11377addd08ab5d2ba85a4f1ce6e8519db8ea681ab13490523a186/d324a6fb/@2x.png",
+                                        "width": 33,
+                                        "height": 33,
+                                        "ui_role": "station",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/67e2c62aac64fc7ee9d19791f3d309874353a20323e7390c101f1c10/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin"
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/4fb5a26e2e7558278c069c0ce6f72b672054069ddbac96f2b4d951f4/d324a6fb/@2x.png",
+                                        "width": 38,
+                                        "height": 41,
+                                        "ui_role": "pin",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/8b4e44e1cdc30e49e8c21edb97e389be3a07b34f1c45cac0b3ef7de7/d324a6fb/@2x.png",
+                                        "width": 13,
+                                        "height": 16,
+                                        "ui_role": "vehicle_compact",
+                                        "is_generic": true
+                                    },
+                                    {
+                                        "url": "https://d3440lt1d9mf95.cloudfront.net/83a375cedd40ff34d59ffc95791be1a130c712d0799ffb782b26eeef/d324a6fb/@2x.png",
+                                        "width": 24,
+                                        "height": 33,
+                                        "ui_role": "vehicle",
+                                        "is_generic": true
+                                    }
+                                ]
+                            },
+                            "color": "#1AC7FF",
+                            "background_color": "#1AC7FF",
+                            "text_color": "#000000"
+                        }
+                    ],
+                    "direction_description": "Christ de Saclay | Saint-Quentin - Gare Routière des Prés"
+                },
+                {
+                    "travel_mode": "walk",
+                    "duration_seconds": 203,
+                    "path": "s~hhH}~lL?DKAoAWCd@UEALOBc@jI",
+                    "updatable_detail": {
+                        "leg_departure_time": "2022-02-27T18:11:00+01:00",
+                        "leg_arrival_time": "2022-02-27T18:14:23+01:00"
+                    }
+                }
+            ],
+            "route_departure_time": "2022-02-27T16:39:25+01:00",
+            "route_arrival_time": "2022-02-27T18:14:23+01:00",
+            "signature": "v2.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjbTp0cmFuc2l0MSIsImlhdCI6MTY0NTk3NjM2NiwiZnJvbnRlbmRfc2lnbmF0dXJlIjoie1wiY2FyXCI6MjU1MjQsXCJkdXJhdGlvblwiOjUxOTksXCJlbmRcIjp7XCJjb29yZHNcIjpcIjQ4LjcxMjkxMiwyLjE5OTg4OVwifSxcImpyX2luZGV4XCI6NCxcImxlZ3NcIjpbe1wiZGlzdGFuY2VcIjo0NTMsXCJkdXJhdGlvblwiOjQyMixcImVjXCI6XCI0OC44NDY4MiwyLjM0MDM2XCIsXCJpbl9zdGF0aW9uXCI6XCIwLzYwXCIsXCJtb2RlXCI6XCJ3YWxrXCIsXCJzY1wiOlwiNDguODQ4MTEsMi4zNDQwNlwiLFwidG9fZXhpdFwiOlwiUGFyaXNTdGF0aW9uX0x1eGVtYm91cmdfRTMzODBcIn0se1wiZHVyYXRpb25cIjoxNTYwLFwiZW5kXCI6XCJQYXJpc1N0YXRpb25fTWFzc3lfVmVycmllcmVzXCIsXCJtb2RlXCI6XCJ0cmFuc2l0XCIsXCJyb3V0ZV9pZHNcIjpbXCJSRVJCXCJdLFwic3RhcnRcIjpcIlBhcmlzU3RhdGlvbl9MdXhlbWJvdXJnXCIsXCJzdG9wX2NvdW50XCI6MTUsXCJzdG9wX2lkc1wiOltcIlBsYXRmb3JtX1BhcmlzTHV4ZW1ib3VyZ19SYl9kU1wiLFwiUGxhdGZvcm1fUGFyaXNNYXNzeVZlcnJpZXJlc19SYl9kU1dcIl19LHtcImRpc3RhbmNlXCI6MCxcImR1cmF0aW9uXCI6NjAsXCJlY1wiOlwiNDguNzM0NzgsMi4yNzMxNVwiLFwiaW5fc3RhdGlvblwiOlwiMS82MFwiLFwibW9kZVwiOlwid2Fsa1wiLFwic2NcIjpcIjQ4LjczNDc4LDIuMjczMTVcIn0se1wiZHVyYXRpb25cIjoyMTAsXCJlbmRcIjpcIlBhcmlzU3RhdGlvbl9NYXNzeV9QYWxhaXNlYXVcIixcIm1vZGVcIjpcInRyYW5zaXRcIixcInJvdXRlX2lkc1wiOltcIlJFUkNcIl0sXCJzdGFydFwiOlwiUGFyaXNTdGF0aW9uX01hc3N5X1ZlcnJpZXJlc1wiLFwic3RvcF9jb3VudFwiOjIsXCJzdG9wX2lkc1wiOltcIlBsYXRmb3JtX1BhcmlzTWFzc3lWZXJyaWVyZXNfUmNfZFNXXCIsXCJQbGF0Zm9ybV9QYXJpc01hc3N5UGFsYWlzZWF1X1JjX2ROV1wiXX0se1wiZGlzdGFuY2VcIjo0MjksXCJkdXJhdGlvblwiOjQwNCxcImVjXCI6XCI0OC43MjMzMiwyLjI1OFwiLFwiZnJvbV9leGl0XCI6XCJQYXJpc1N0YXRpb25fTWFzc3lfUGFsYWlzZWF1X0UzXCIsXCJpbl9zdGF0aW9uXCI6XCIyLzI0MFwiLFwibW9kZVwiOlwid2Fsa1wiLFwic2NcIjpcIjQ4LjcyNDExLDIuMjU5MjZcIn0se1wiZHVyYXRpb25cIjo2NjAsXCJlbmRcIjpcIlBhcmlzU3RvcF9GZXJtZURlTGFWYXV2ZV9OXzNcIixcIm1vZGVcIjpcInRyYW5zaXRcIixcInJvdXRlX2lkc1wiOltcIlNUSUZCdXNfQWxiYXRyYW5zOTEwNlwiLFwiU1RJRkJ1c19BbGJhdHJhbnM5MTEwXCJdLFwic3RhcnRcIjpcIlBhcmlzU3RvcF9HYXJlTWFzc3lQYWxhaXNlYXVfV1wiLFwic3RvcF9jb3VudFwiOjd9LHtcImRpc3RhbmNlXCI6MjE4LFwiZHVyYXRpb25cIjoyMDMsXCJlY1wiOlwiNDguNzEyNDgsMi4xOTk3OFwiLFwibW9kZVwiOlwid2Fsa1wiLFwic2NcIjpcIjQ4LjcxMTYyLDIuMjAxNTlcIn1dLFwicmVnaW9uXCI6XCJmci1wYXJpc1wiLFwicm91dGluZ19yZXF1ZXN0X2lkXCI6XCIwNmE2OTk5YS03MjgxLTRjZDAtOTdhOS1iMTlhNjMyY2UwZDFcIixcInN0YXJ0XCI6e1wiY29vcmRzXCI6XCI0OC44NDgwNzQsMi4zNDQxOTNcIn0sXCJ0aW1lXCI6XCIyMDIyLTAyLTI3VDE2OjM5OjI1KzAxOjAwL05PV0lTSFwiLFwidmVyc2lvblwiOjJ9IiwicmVnaW9uX2lkIjoiZnItcGFyaXMifQ.FUJLuZqqtx08C9OUBmlkws31uGfhfX1sD_bTatDYrV4"
+        }
+    ]
+}

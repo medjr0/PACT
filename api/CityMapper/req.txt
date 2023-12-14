@@ -1,0 +1,8 @@
+Start et end sont appelés des "query parameters"
+
+https://api.external.citymapper.com/api/1/directions/transit?start=48.8480743,2.3441925&end=48.7129116,2.1998893
+
+Attention ne pas oublier
+d'ajouter le 
+Citymapper-Partner-Key: zFLqQDDyuHfgS94ElXFJZvGG7LJFlA29
+dans le header de la requète
